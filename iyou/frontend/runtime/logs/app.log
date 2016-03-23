@@ -1,0 +1,1266 @@
+2015-12-30 19:06:34 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: E:\web\apache\htdocs\month9\advanced\frontend\views\site\nine.php' in E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('E:\\web\\apache\\h...', Array, Object(frontend\controllers\SiteController))
+#1 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('nine', Array, Object(frontend\controllers\SiteController))
+#2 E:\web\apache\htdocs\month9\advanced\frontend\controllers\SiteController.php(216): yii\base\Controller->render('nine', Array)
+#3 [internal function]: frontend\controllers\SiteController->actionNine('')
+#4 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('nine', Array)
+#7 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/nine', Array)
+#8 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\web\apache\htdocs\month9\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-12-30 19:06:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nine'
+]
+
+$_COOKIE = [
+    '40We_2132_saltkey' => 'toddcDCn'
+    '40We_2132_lastvisit' => '1450681347'
+    'ECS' => [
+        'visit_times' => '74'
+    ]
+    'PHPSESSID' => 'ekdqd60083m2fusbopgpdmq4m6'
+    '_csrf' => '20d4116ee7efde8430d2a4d61e13dc40667aa172552eb865a86afeea593a3e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4zo9MDD4NOoySNvUfhly56xv80_Pss0E\";}'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/month9/advanced/frontend/web/index.php'
+    'SCRIPT_URI' => 'http://www.web.com/month9/advanced/frontend/web/index.php'
+    'HTTP_HOST' => 'www.web.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '40We_2132_saltkey=toddcDCn; 40We_2132_lastvisit=1450681347; ECS[visit_times]=74; PHPSESSID=ekdqd60083m2fusbopgpdmq4m6; _csrf=20d4116ee7efde8430d2a4d61e13dc40667aa172552eb865a86afeea593a3e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224zo9MDD4NOoySNvUfhly56xv80_Pss0E%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;E:\\web\\php\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;E:\\web\\MySQL\\bin;F:\\软件\\SVN\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.17 (Win32) PHP/5.4.38'
+    'SERVER_NAME' => 'www.web.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/web/apache/htdocs'
+    'SERVER_ADMIN' => 'www@qq.com'
+    'SCRIPT_FILENAME' => 'E:/web/apache/htdocs/month9/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '54219'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/nine'
+    'REQUEST_URI' => '/month9/advanced/frontend/web/index.php?r=site/nine'
+    'SCRIPT_NAME' => '/month9/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/month9/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1451473594.827
+    'REQUEST_TIME' => 1451473594
+]
+2015-12-30 19:06:34 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidParamException))
+#6 {main}
+2015-12-30 19:06:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/nine'
+]
+
+$_COOKIE = [
+    '40We_2132_saltkey' => 'toddcDCn'
+    '40We_2132_lastvisit' => '1450681347'
+    'ECS' => [
+        'visit_times' => '74'
+    ]
+    'PHPSESSID' => 'ekdqd60083m2fusbopgpdmq4m6'
+    '_csrf' => '20d4116ee7efde8430d2a4d61e13dc40667aa172552eb865a86afeea593a3e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4zo9MDD4NOoySNvUfhly56xv80_Pss0E\";}'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/month9/advanced/frontend/web/index.php'
+    'SCRIPT_URI' => 'http://www.web.com/month9/advanced/frontend/web/index.php'
+    'HTTP_HOST' => 'www.web.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '40We_2132_saltkey=toddcDCn; 40We_2132_lastvisit=1450681347; ECS[visit_times]=74; PHPSESSID=ekdqd60083m2fusbopgpdmq4m6; _csrf=20d4116ee7efde8430d2a4d61e13dc40667aa172552eb865a86afeea593a3e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224zo9MDD4NOoySNvUfhly56xv80_Pss0E%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;E:\\web\\php\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;E:\\web\\MySQL\\bin;F:\\软件\\SVN\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.17 (Win32) PHP/5.4.38'
+    'SERVER_NAME' => 'www.web.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/web/apache/htdocs'
+    'SERVER_ADMIN' => 'www@qq.com'
+    'SCRIPT_FILENAME' => 'E:/web/apache/htdocs/month9/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '54219'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/nine'
+    'REQUEST_URI' => '/month9/advanced/frontend/web/index.php?r=site/nine'
+    'SCRIPT_NAME' => '/month9/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/month9/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1451473594.827
+    'REQUEST_TIME' => 1451473594
+]
+2015-12-30 19:29:02 [127.0.0.1][-][ekdqd60083m2fusbopgpdmq4m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/Index' in E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('Index', Array)
+#1 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/Index', Array)
+#2 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\web\apache\htdocs\month9\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\web\apache\htdocs\month9\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-12-30 19:29:02 [127.0.0.1][-][ekdqd60083m2fusbopgpdmq4m6][info][application] $_GET = [
+    'r' => 'site/Index'
+]
+
+$_COOKIE = [
+    '40We_2132_saltkey' => 'toddcDCn'
+    '40We_2132_lastvisit' => '1450681347'
+    'ECS' => [
+        'visit_times' => '74'
+    ]
+    'PHPSESSID' => 'ekdqd60083m2fusbopgpdmq4m6'
+    '_csrf' => '20d4116ee7efde8430d2a4d61e13dc40667aa172552eb865a86afeea593a3e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4zo9MDD4NOoySNvUfhly56xv80_Pss0E\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/month9/advanced/frontend/web/index.php'
+    'SCRIPT_URI' => 'http://www.web.com/month9/advanced/frontend/web/index.php'
+    'HTTP_HOST' => 'www.web.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '40We_2132_saltkey=toddcDCn; 40We_2132_lastvisit=1450681347; ECS[visit_times]=74; PHPSESSID=ekdqd60083m2fusbopgpdmq4m6; _csrf=20d4116ee7efde8430d2a4d61e13dc40667aa172552eb865a86afeea593a3e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224zo9MDD4NOoySNvUfhly56xv80_Pss0E%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;E:\\web\\php\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;E:\\web\\MySQL\\bin;F:\\软件\\SVN\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.17 (Win32) PHP/5.4.38'
+    'SERVER_NAME' => 'www.web.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/web/apache/htdocs'
+    'SERVER_ADMIN' => 'www@qq.com'
+    'SCRIPT_FILENAME' => 'E:/web/apache/htdocs/month9/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '54845'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/Index'
+    'REQUEST_URI' => '/month9/advanced/frontend/web/index.php?r=site/Index'
+    'SCRIPT_NAME' => '/month9/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/month9/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1451474942.08
+    'REQUEST_TIME' => 1451474942
+]
+2015-12-30 19:29:48 [127.0.0.1][-][ekdqd60083m2fusbopgpdmq4m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/Index' in E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('Index', Array)
+#1 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/Index', Array)
+#2 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\web\apache\htdocs\month9\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\web\apache\htdocs\month9\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-12-30 19:29:48 [127.0.0.1][-][ekdqd60083m2fusbopgpdmq4m6][info][application] $_GET = [
+    'r' => 'site/Index'
+]
+
+$_COOKIE = [
+    '40We_2132_saltkey' => 'toddcDCn'
+    '40We_2132_lastvisit' => '1450681347'
+    'ECS' => [
+        'visit_times' => '74'
+    ]
+    'PHPSESSID' => 'ekdqd60083m2fusbopgpdmq4m6'
+    '_csrf' => '20d4116ee7efde8430d2a4d61e13dc40667aa172552eb865a86afeea593a3e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4zo9MDD4NOoySNvUfhly56xv80_Pss0E\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/month9/advanced/frontend/web/index.php'
+    'SCRIPT_URI' => 'http://www.web.com/month9/advanced/frontend/web/index.php'
+    'HTTP_HOST' => 'www.web.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '40We_2132_saltkey=toddcDCn; 40We_2132_lastvisit=1450681347; ECS[visit_times]=74; PHPSESSID=ekdqd60083m2fusbopgpdmq4m6; _csrf=20d4116ee7efde8430d2a4d61e13dc40667aa172552eb865a86afeea593a3e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224zo9MDD4NOoySNvUfhly56xv80_Pss0E%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;E:\\web\\php\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;E:\\web\\MySQL\\bin;F:\\软件\\SVN\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.17 (Win32) PHP/5.4.38'
+    'SERVER_NAME' => 'www.web.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/web/apache/htdocs'
+    'SERVER_ADMIN' => 'www@qq.com'
+    'SCRIPT_FILENAME' => 'E:/web/apache/htdocs/month9/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '54865'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/Index'
+    'REQUEST_URI' => '/month9/advanced/frontend/web/index.php?r=site/Index'
+    'SCRIPT_NAME' => '/month9/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/month9/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1451474988.67
+    'REQUEST_TIME' => 1451474988
+]
+2015-12-30 19:29:49 [127.0.0.1][-][ekdqd60083m2fusbopgpdmq4m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/Index' in E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('Index', Array)
+#1 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/Index', Array)
+#2 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\web\apache\htdocs\month9\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\web\apache\htdocs\month9\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-12-30 19:29:49 [127.0.0.1][-][ekdqd60083m2fusbopgpdmq4m6][info][application] $_GET = [
+    'r' => 'site/Index'
+]
+
+$_COOKIE = [
+    '40We_2132_saltkey' => 'toddcDCn'
+    '40We_2132_lastvisit' => '1450681347'
+    'ECS' => [
+        'visit_times' => '74'
+    ]
+    'PHPSESSID' => 'ekdqd60083m2fusbopgpdmq4m6'
+    '_csrf' => '20d4116ee7efde8430d2a4d61e13dc40667aa172552eb865a86afeea593a3e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4zo9MDD4NOoySNvUfhly56xv80_Pss0E\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/month9/advanced/frontend/web/index.php'
+    'SCRIPT_URI' => 'http://www.web.com/month9/advanced/frontend/web/index.php'
+    'HTTP_HOST' => 'www.web.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '40We_2132_saltkey=toddcDCn; 40We_2132_lastvisit=1450681347; ECS[visit_times]=74; PHPSESSID=ekdqd60083m2fusbopgpdmq4m6; _csrf=20d4116ee7efde8430d2a4d61e13dc40667aa172552eb865a86afeea593a3e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224zo9MDD4NOoySNvUfhly56xv80_Pss0E%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;E:\\web\\php\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;E:\\web\\MySQL\\bin;F:\\软件\\SVN\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.17 (Win32) PHP/5.4.38'
+    'SERVER_NAME' => 'www.web.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/web/apache/htdocs'
+    'SERVER_ADMIN' => 'www@qq.com'
+    'SCRIPT_FILENAME' => 'E:/web/apache/htdocs/month9/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '54869'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/Index'
+    'REQUEST_URI' => '/month9/advanced/frontend/web/index.php?r=site/Index'
+    'SCRIPT_NAME' => '/month9/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/month9/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1451474989.547
+    'REQUEST_TIME' => 1451474989
+]
+2015-12-30 19:35:25 [127.0.0.1][-][ekdqd60083m2fusbopgpdmq4m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/Index' in E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('Index', Array)
+#1 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/Index', Array)
+#2 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\web\apache\htdocs\month9\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\web\apache\htdocs\month9\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-12-30 19:35:25 [127.0.0.1][-][ekdqd60083m2fusbopgpdmq4m6][info][application] $_GET = [
+    'r' => 'site/Index'
+]
+
+$_COOKIE = [
+    '40We_2132_saltkey' => 'toddcDCn'
+    '40We_2132_lastvisit' => '1450681347'
+    'ECS' => [
+        'visit_times' => '74'
+    ]
+    'PHPSESSID' => 'ekdqd60083m2fusbopgpdmq4m6'
+    '_csrf' => '20d4116ee7efde8430d2a4d61e13dc40667aa172552eb865a86afeea593a3e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4zo9MDD4NOoySNvUfhly56xv80_Pss0E\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/month9/advanced/frontend/web/index.php'
+    'SCRIPT_URI' => 'http://www.web.com/month9/advanced/frontend/web/index.php'
+    'HTTP_HOST' => 'www.web.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '40We_2132_saltkey=toddcDCn; 40We_2132_lastvisit=1450681347; ECS[visit_times]=74; PHPSESSID=ekdqd60083m2fusbopgpdmq4m6; _csrf=20d4116ee7efde8430d2a4d61e13dc40667aa172552eb865a86afeea593a3e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224zo9MDD4NOoySNvUfhly56xv80_Pss0E%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;E:\\web\\php\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;E:\\web\\MySQL\\bin;F:\\软件\\SVN\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.17 (Win32) PHP/5.4.38'
+    'SERVER_NAME' => 'www.web.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/web/apache/htdocs'
+    'SERVER_ADMIN' => 'www@qq.com'
+    'SCRIPT_FILENAME' => 'E:/web/apache/htdocs/month9/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '54964'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/Index'
+    'REQUEST_URI' => '/month9/advanced/frontend/web/index.php?r=site/Index'
+    'SCRIPT_NAME' => '/month9/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/month9/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1451475325.441
+    'REQUEST_TIME' => 1451475325
+]
+2015-12-30 19:35:26 [127.0.0.1][-][ekdqd60083m2fusbopgpdmq4m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/Index' in E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('Index', Array)
+#1 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/Index', Array)
+#2 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\web\apache\htdocs\month9\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\web\apache\htdocs\month9\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-12-30 19:35:26 [127.0.0.1][-][ekdqd60083m2fusbopgpdmq4m6][info][application] $_GET = [
+    'r' => 'site/Index'
+]
+
+$_COOKIE = [
+    '40We_2132_saltkey' => 'toddcDCn'
+    '40We_2132_lastvisit' => '1450681347'
+    'ECS' => [
+        'visit_times' => '74'
+    ]
+    'PHPSESSID' => 'ekdqd60083m2fusbopgpdmq4m6'
+    '_csrf' => '20d4116ee7efde8430d2a4d61e13dc40667aa172552eb865a86afeea593a3e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4zo9MDD4NOoySNvUfhly56xv80_Pss0E\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/month9/advanced/frontend/web/index.php'
+    'SCRIPT_URI' => 'http://www.web.com/month9/advanced/frontend/web/index.php'
+    'HTTP_HOST' => 'www.web.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '40We_2132_saltkey=toddcDCn; 40We_2132_lastvisit=1450681347; ECS[visit_times]=74; PHPSESSID=ekdqd60083m2fusbopgpdmq4m6; _csrf=20d4116ee7efde8430d2a4d61e13dc40667aa172552eb865a86afeea593a3e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224zo9MDD4NOoySNvUfhly56xv80_Pss0E%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;E:\\web\\php\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;E:\\web\\MySQL\\bin;F:\\软件\\SVN\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.17 (Win32) PHP/5.4.38'
+    'SERVER_NAME' => 'www.web.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/web/apache/htdocs'
+    'SERVER_ADMIN' => 'www@qq.com'
+    'SCRIPT_FILENAME' => 'E:/web/apache/htdocs/month9/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '54967'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/Index'
+    'REQUEST_URI' => '/month9/advanced/frontend/web/index.php?r=site/Index'
+    'SCRIPT_NAME' => '/month9/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/month9/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1451475326.229
+    'REQUEST_TIME' => 1451475326
+]
+2015-12-30 19:35:26 [127.0.0.1][-][ekdqd60083m2fusbopgpdmq4m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/Index' in E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('Index', Array)
+#1 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/Index', Array)
+#2 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\web\apache\htdocs\month9\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\web\apache\htdocs\month9\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-12-30 19:35:26 [127.0.0.1][-][ekdqd60083m2fusbopgpdmq4m6][info][application] $_GET = [
+    'r' => 'site/Index'
+]
+
+$_COOKIE = [
+    '40We_2132_saltkey' => 'toddcDCn'
+    '40We_2132_lastvisit' => '1450681347'
+    'ECS' => [
+        'visit_times' => '74'
+    ]
+    'PHPSESSID' => 'ekdqd60083m2fusbopgpdmq4m6'
+    '_csrf' => '20d4116ee7efde8430d2a4d61e13dc40667aa172552eb865a86afeea593a3e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4zo9MDD4NOoySNvUfhly56xv80_Pss0E\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/month9/advanced/frontend/web/index.php'
+    'SCRIPT_URI' => 'http://www.web.com/month9/advanced/frontend/web/index.php'
+    'HTTP_HOST' => 'www.web.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '40We_2132_saltkey=toddcDCn; 40We_2132_lastvisit=1450681347; ECS[visit_times]=74; PHPSESSID=ekdqd60083m2fusbopgpdmq4m6; _csrf=20d4116ee7efde8430d2a4d61e13dc40667aa172552eb865a86afeea593a3e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224zo9MDD4NOoySNvUfhly56xv80_Pss0E%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;E:\\web\\php\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;E:\\web\\MySQL\\bin;F:\\软件\\SVN\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.17 (Win32) PHP/5.4.38'
+    'SERVER_NAME' => 'www.web.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/web/apache/htdocs'
+    'SERVER_ADMIN' => 'www@qq.com'
+    'SCRIPT_FILENAME' => 'E:/web/apache/htdocs/month9/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '54968'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/Index'
+    'REQUEST_URI' => '/month9/advanced/frontend/web/index.php?r=site/Index'
+    'SCRIPT_NAME' => '/month9/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/month9/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1451475326.464
+    'REQUEST_TIME' => 1451475326
+]
+2015-12-30 19:36:17 [127.0.0.1][-][ekdqd60083m2fusbopgpdmq4m6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/Index' in E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('Index', Array)
+#1 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/Index', Array)
+#2 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\web\apache\htdocs\month9\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\web\apache\htdocs\month9\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-12-30 19:36:17 [127.0.0.1][-][ekdqd60083m2fusbopgpdmq4m6][info][application] $_GET = [
+    'r' => 'index/Index'
+]
+
+$_COOKIE = [
+    '40We_2132_saltkey' => 'toddcDCn'
+    '40We_2132_lastvisit' => '1450681347'
+    'ECS' => [
+        'visit_times' => '74'
+    ]
+    'PHPSESSID' => 'ekdqd60083m2fusbopgpdmq4m6'
+    '_csrf' => '20d4116ee7efde8430d2a4d61e13dc40667aa172552eb865a86afeea593a3e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4zo9MDD4NOoySNvUfhly56xv80_Pss0E\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/month9/advanced/frontend/web/index.php'
+    'SCRIPT_URI' => 'http://www.web.com/month9/advanced/frontend/web/index.php'
+    'HTTP_HOST' => 'www.web.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '40We_2132_saltkey=toddcDCn; 40We_2132_lastvisit=1450681347; ECS[visit_times]=74; PHPSESSID=ekdqd60083m2fusbopgpdmq4m6; _csrf=20d4116ee7efde8430d2a4d61e13dc40667aa172552eb865a86afeea593a3e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224zo9MDD4NOoySNvUfhly56xv80_Pss0E%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;E:\\web\\php\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;E:\\web\\MySQL\\bin;F:\\软件\\SVN\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.17 (Win32) PHP/5.4.38'
+    'SERVER_NAME' => 'www.web.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/web/apache/htdocs'
+    'SERVER_ADMIN' => 'www@qq.com'
+    'SCRIPT_FILENAME' => 'E:/web/apache/htdocs/month9/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '54986'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/Index'
+    'REQUEST_URI' => '/month9/advanced/frontend/web/index.php?r=index/Index'
+    'SCRIPT_NAME' => '/month9/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/month9/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1451475377.917
+    'REQUEST_TIME' => 1451475377
+]
+2015-12-30 20:32:10 [127.0.0.1][-][i7b1r7gl2n8iu9nvaj1gj1fcj4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index.index".' in E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index.index', Array)
+#1 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\web\apache\htdocs\month9\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\web\apache\htdocs\month9\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\web\apache\htdocs\month9\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-12-30 20:32:10 [127.0.0.1][-][i7b1r7gl2n8iu9nvaj1gj1fcj4][info][application] $_GET = [
+    'r' => 'index.index'
+]
+
+$_COOKIE = [
+    '40We_2132_saltkey' => 'toddcDCn'
+    '40We_2132_lastvisit' => '1450681347'
+    'ECS' => [
+        'visit_times' => '74'
+    ]
+    'PHPSESSID' => 'i7b1r7gl2n8iu9nvaj1gj1fcj4'
+    '_csrf' => '5ec291686784c5fad96eece1dc9d73c6f7acb0a2152c27fbe755c4ab86772daea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XxLHGEA6imRfi6ZSHr91Yl2z9YjDrMZZ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/month9/advanced/frontend/web/index.php'
+    'SCRIPT_URI' => 'http://www.web.com/month9/advanced/frontend/web/index.php'
+    'HTTP_HOST' => 'www.web.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '40We_2132_saltkey=toddcDCn; 40We_2132_lastvisit=1450681347; ECS[visit_times]=74; PHPSESSID=i7b1r7gl2n8iu9nvaj1gj1fcj4; _csrf=5ec291686784c5fad96eece1dc9d73c6f7acb0a2152c27fbe755c4ab86772daea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XxLHGEA6imRfi6ZSHr91Yl2z9YjDrMZZ%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;E:\\web\\php\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;E:\\web\\MySQL\\bin;F:\\软件\\SVN\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.17 (Win32) PHP/5.4.38'
+    'SERVER_NAME' => 'www.web.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/web/apache/htdocs'
+    'SERVER_ADMIN' => 'www@qq.com'
+    'SCRIPT_FILENAME' => 'E:/web/apache/htdocs/month9/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '56963'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index.index'
+    'REQUEST_URI' => '/month9/advanced/frontend/web/index.php?r=index.index'
+    'SCRIPT_NAME' => '/month9/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/month9/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1451478730.645
+    'REQUEST_TIME' => 1451478730
+]
+2016-01-28 15:10:45 [::1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The OpenSSL PHP extension is not installed.' in D:\WWW\advanced\vendor\yiisoft\yii2\base\Security.php:487
+Stack trace:
+#0 D:\WWW\advanced\vendor\yiisoft\yii2\base\Security.php(510): yii\base\Security->generateRandomKey(32)
+#1 D:\WWW\advanced\vendor\yiisoft\yii2\web\Request.php(1299): yii\base\Security->generateRandomString()
+#2 D:\WWW\advanced\vendor\yiisoft\yii2\web\Request.php(1267): yii\web\Request->generateCsrfToken()
+#3 D:\WWW\advanced\vendor\yiisoft\yii2\helpers\BaseHtml.php(286): yii\web\Request->getCsrfToken()
+#4 D:\WWW\advanced\frontend\views\layouts\main.php(21): yii\helpers\BaseHtml::csrfMetaTags()
+#5 D:\WWW\advanced\vendor\yiisoft\yii2\base\View.php(325): require('D:\\WWW\\advanced...')
+#6 D:\WWW\advanced\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\WWW\\advanced...', Array)
+#7 D:\WWW\advanced\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile('D:\\WWW\\advanced...', Array, Object(frontend\controllers\SiteController))
+#8 D:\WWW\advanced\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent('<div class="sit...')
+#9 D:\WWW\advanced\frontend\controllers\SiteController.php(75): yii\base\Controller->render('index')
+#10 [internal function]: frontend\controllers\SiteController->actionIndex()
+#11 D:\WWW\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#12 D:\WWW\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#13 D:\WWW\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#14 D:\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#15 D:\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 D:\WWW\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#17 {main}
+2016-01-28 15:10:45 [::1][-][-][info][application] $_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1796'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/advanced/frontend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '14031'
+    'SCRIPT_FILENAME' => 'D:/WWW/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_REFERER' => 'http://localhost/advanced/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1453965045.8764
+    'REQUEST_TIME' => 1453965045
+]
+2016-01-28 15:10:46 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\WWW\advanced\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\WWW\advanced\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\WWW\advanced\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\WWW\advanced\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\WWW\advanced\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidConfigException))
+#6 {main}
+2016-01-28 15:10:45 [::1][-][-][info][application] $_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1796'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/advanced/frontend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '14031'
+    'SCRIPT_FILENAME' => 'D:/WWW/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_REFERER' => 'http://localhost/advanced/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1453965045.8764
+    'REQUEST_TIME' => 1453965045
+]
+2016-01-28 15:12:01 [::1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The OpenSSL PHP extension is not installed.' in D:\WWW\advanced\vendor\yiisoft\yii2\base\Security.php:487
+Stack trace:
+#0 D:\WWW\advanced\vendor\yiisoft\yii2\base\Security.php(510): yii\base\Security->generateRandomKey(32)
+#1 D:\WWW\advanced\vendor\yiisoft\yii2\web\Request.php(1299): yii\base\Security->generateRandomString()
+#2 D:\WWW\advanced\vendor\yiisoft\yii2\web\Request.php(1267): yii\web\Request->generateCsrfToken()
+#3 D:\WWW\advanced\vendor\yiisoft\yii2\helpers\BaseHtml.php(286): yii\web\Request->getCsrfToken()
+#4 D:\WWW\advanced\frontend\views\layouts\main.php(21): yii\helpers\BaseHtml::csrfMetaTags()
+#5 D:\WWW\advanced\vendor\yiisoft\yii2\base\View.php(325): require('D:\\WWW\\advanced...')
+#6 D:\WWW\advanced\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\WWW\\advanced...', Array)
+#7 D:\WWW\advanced\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile('D:\\WWW\\advanced...', Array, Object(frontend\controllers\SiteController))
+#8 D:\WWW\advanced\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent('<div class="sit...')
+#9 D:\WWW\advanced\frontend\controllers\SiteController.php(75): yii\base\Controller->render('index')
+#10 [internal function]: frontend\controllers\SiteController->actionIndex()
+#11 D:\WWW\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#12 D:\WWW\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#13 D:\WWW\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#14 D:\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#15 D:\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 D:\WWW\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#17 {main}
+2016-01-28 15:12:01 [::1][-][-][info][application] $_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1796'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/advanced/frontend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '14280'
+    'SCRIPT_FILENAME' => 'D:/WWW/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_REFERER' => 'http://localhost/advanced/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1453965121.2753
+    'REQUEST_TIME' => 1453965121
+]
+2016-01-28 15:12:01 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\WWW\advanced\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\WWW\advanced\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\WWW\advanced\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\WWW\advanced\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\WWW\advanced\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidConfigException))
+#6 {main}
+2016-01-28 15:12:01 [::1][-][-][info][application] $_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1796'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/advanced/frontend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '14280'
+    'SCRIPT_FILENAME' => 'D:/WWW/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_REFERER' => 'http://localhost/advanced/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1453965121.2753
+    'REQUEST_TIME' => 1453965121
+]
+2016-01-28 15:29:37 [::1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The OpenSSL PHP extension is not installed.' in D:\WWW\advanced\vendor\yiisoft\yii2\base\Security.php:487
+Stack trace:
+#0 D:\WWW\advanced\vendor\yiisoft\yii2\base\Security.php(510): yii\base\Security->generateRandomKey(32)
+#1 D:\WWW\advanced\vendor\yiisoft\yii2\web\Request.php(1299): yii\base\Security->generateRandomString()
+#2 D:\WWW\advanced\vendor\yiisoft\yii2\web\Request.php(1267): yii\web\Request->generateCsrfToken()
+#3 D:\WWW\advanced\vendor\yiisoft\yii2\helpers\BaseHtml.php(286): yii\web\Request->getCsrfToken()
+#4 D:\WWW\advanced\frontend\views\layouts\main.php(21): yii\helpers\BaseHtml::csrfMetaTags()
+#5 D:\WWW\advanced\vendor\yiisoft\yii2\base\View.php(325): require('D:\\WWW\\advanced...')
+#6 D:\WWW\advanced\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\WWW\\advanced...', Array)
+#7 D:\WWW\advanced\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile('D:\\WWW\\advanced...', Array, Object(frontend\controllers\SiteController))
+#8 D:\WWW\advanced\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent('<div class="sit...')
+#9 D:\WWW\advanced\frontend\controllers\SiteController.php(75): yii\base\Controller->render('index')
+#10 [internal function]: frontend\controllers\SiteController->actionIndex()
+#11 D:\WWW\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#12 D:\WWW\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#13 D:\WWW\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#14 D:\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#15 D:\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 D:\WWW\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#17 {main}
+2016-01-28 15:29:37 [::1][-][-][info][application] $_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '416'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/advanced/frontend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4065'
+    'SCRIPT_FILENAME' => 'D:/WWW/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_REFERER' => 'http://localhost/advanced/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1453966177.5316
+    'REQUEST_TIME' => 1453966177
+]
+2016-01-28 15:29:37 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\WWW\advanced\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 D:\WWW\advanced\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 D:\WWW\advanced\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 D:\WWW\advanced\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 D:\WWW\advanced\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\WWW\advanced\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidConfigException))
+#6 {main}
+2016-01-28 15:29:37 [::1][-][-][info][application] $_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '416'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/advanced/frontend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4065'
+    'SCRIPT_FILENAME' => 'D:/WWW/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_REFERER' => 'http://localhost/advanced/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1453966177.5316
+    'REQUEST_TIME' => 1453966177
+]
+2016-01-28 16:49:36 [127.0.0.1][-][6jk71dlah9l3mj1mrqbh0eej50][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/dat1' in E:\PHPstudy\zzz\yii\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\PHPstudy\zzz\yii\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dat1', Array)
+#1 E:\PHPstudy\zzz\yii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/dat1', Array)
+#2 E:\PHPstudy\zzz\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\PHPstudy\zzz\yii\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\PHPstudy\zzz\yii\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\PHPstudy\zzz\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\PHPstudy\zzz\yii\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-01-28 16:49:36 [127.0.0.1][-][6jk71dlah9l3mj1mrqbh0eej50][info][application] $_GET = [
+    'r' => 'index/dat1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '6jk71dlah9l3mj1mrqbh0eej50'
+    '_csrf' => 'f5c216416333a716da614d3877a965c4dc495bed79e9fb8ad849abcbe012323ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jRblxiX7zQM4Fskd-t9qaVGhoE7HGLn2\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yii/backend/web/'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1848'
+    'SCRIPT_NAME' => '/yii/frontend/web/index.php'
+    'REQUEST_URI' => '/yii/frontend/web/index.php?r=index/dat1'
+    'QUERY_STRING' => 'r=index/dat1'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52199'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=6jk71dlah9l3mj1mrqbh0eej50; _csrf=f5c216416333a716da614d3877a965c4dc495bed79e9fb8ad849abcbe012323ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jRblxiX7zQM4Fskd-t9qaVGhoE7HGLn2%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1453970976.8652
+    'REQUEST_TIME' => 1453970976
+]
+2016-01-28 16:51:39 [127.0.0.1][-][6jk71dlah9l3mj1mrqbh0eej50][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/dat1' in E:\PHPstudy\zzz\yii\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\PHPstudy\zzz\yii\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('dat1', Array)
+#1 E:\PHPstudy\zzz\yii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/dat1', Array)
+#2 E:\PHPstudy\zzz\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\PHPstudy\zzz\yii\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\PHPstudy\zzz\yii\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\PHPstudy\zzz\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\PHPstudy\zzz\yii\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-01-28 16:51:39 [127.0.0.1][-][6jk71dlah9l3mj1mrqbh0eej50][info][application] $_GET = [
+    'r' => 'index/dat1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '6jk71dlah9l3mj1mrqbh0eej50'
+    '_csrf' => 'f5c216416333a716da614d3877a965c4dc495bed79e9fb8ad849abcbe012323ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jRblxiX7zQM4Fskd-t9qaVGhoE7HGLn2\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yii/backend/web/'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1844'
+    'SCRIPT_NAME' => '/yii/frontend/web/index.php'
+    'REQUEST_URI' => '/yii/frontend/web/?r=index/dat1'
+    'QUERY_STRING' => 'r=index/dat1'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52211'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=6jk71dlah9l3mj1mrqbh0eej50; _csrf=f5c216416333a716da614d3877a965c4dc495bed79e9fb8ad849abcbe012323ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jRblxiX7zQM4Fskd-t9qaVGhoE7HGLn2%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1453971099.166
+    'REQUEST_TIME' => 1453971099
+]
+2016-03-23 09:53:35 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '}'' in E:\PHPstudy\zzz\iy\frontend\controllers\DataController.php:26
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-03-23 09:53:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'data/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'PHPSESSID' => 'r3pe3jucco3ekobbg3nt555d55'
+    '_csrf' => '925a998a13c6139e01c2c80de92c37be65243dc2822470c4a26b125911ab6fe5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"V9KjYQyBgLGkR9Y6LuqAdfOwme_fvGb1\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\svn\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1888'
+    'SCRIPT_NAME' => '/iy/frontend/web/index.php'
+    'REQUEST_URI' => '/iy/frontend/web/index.php?r=data/index'
+    'QUERY_STRING' => 'r=data/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51106'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/iy/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; PHPSESSID=r3pe3jucco3ekobbg3nt555d55; _csrf=925a998a13c6139e01c2c80de92c37be65243dc2822470c4a26b125911ab6fe5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22V9KjYQyBgLGkR9Y6LuqAdfOwme_fvGb1%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/iy/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1458698014.899
+    'REQUEST_TIME' => 1458698014
+]
+2016-03-23 09:55:13 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\controllers\DataController' in file: E:\PHPstudy\zzz\iy/frontend/controllers/DataController.php. Namespace missing?' in E:\PHPstudy\zzz\iy\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 E:\PHPstudy\zzz\iy\vendor\yiisoft\yii2\base\Module.php(563): class_exists('frontend\\contro...')
+#3 E:\PHPstudy\zzz\iy\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('data')
+#4 E:\PHPstudy\zzz\iy\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('data/index')
+#5 E:\PHPstudy\zzz\iy\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('data/index', Array)
+#6 E:\PHPstudy\zzz\iy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\PHPstudy\zzz\iy\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-03-23 09:55:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'data/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f' => '1456285463,1456293468,1456904037,1457312587'
+    'tu' => 'e78774b8ece4e677abb20354cd7d1152'
+    'PHPSESSID' => 'r3pe3jucco3ekobbg3nt555d55'
+    '_csrf' => '925a998a13c6139e01c2c80de92c37be65243dc2822470c4a26b125911ab6fe5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"V9KjYQyBgLGkR9Y6LuqAdfOwme_fvGb1\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;E:\\PHPstudy\\phpStudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\svn\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/PHPstudy/phpStudy/php56n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1888'
+    'SCRIPT_NAME' => '/iy/frontend/web/index.php'
+    'REQUEST_URI' => '/iy/frontend/web/index.php?r=data/index'
+    'QUERY_STRING' => 'r=data/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51148'
+    'SCRIPT_FILENAME' => 'E:/PHPstudy/zzz/iy/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/PHPstudy/zzz'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.zcy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_e57ac2e0d645c16f50e241abc140f59f=1456285463,1456293468,1456904037,1457312587; tu=e78774b8ece4e677abb20354cd7d1152; PHPSESSID=r3pe3jucco3ekobbg3nt555d55; _csrf=925a998a13c6139e01c2c80de92c37be65243dc2822470c4a26b125911ab6fe5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22V9KjYQyBgLGkR9Y6LuqAdfOwme_fvGb1%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.zcy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/iy/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1458698113.4616
+    'REQUEST_TIME' => 1458698113
+]
