@@ -9,12 +9,16 @@ use yii\filters\VerbFilter;
 use app\models\FirmAdminuser;
 class AdminController extends Controller
 {
+	public $enableCsrfValidation = false;
 	public function actionLogin()
 	{
     	$this->layout=false;
-    	return $this->render('sign-in');  			
+    	if ($_POST) {
+    		print_r($_POST);
+    	}else{
+	    	return $this->render('sign-in');  					
+    	}
 	}
-	public $enableCsrfValidation = false;
 	public function actionIndex()
 	{
 		$this->layout="header";
