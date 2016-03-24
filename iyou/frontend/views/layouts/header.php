@@ -9,6 +9,7 @@ use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use frontend\assets\AppAsset;
 use common\widgets\Alert;
+use yii\helpers\Url;
 
 AppAsset::register($this);
 ?>
@@ -27,6 +28,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/jquery-1.11.0.min.js"></script>
 <link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 <!---- start-smoth-scrolling---->
+<link href="css/UserCSS.css" rel="stylesheet" type="text/css" />
+    <script src="js/ops.js" type="text/javascript"></script>
+    <script src="js/UserJS.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript">
@@ -55,7 +59,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           <!-- <li><a href="404.html">网站公告</a></li> -->
           <li><a href="index.php?r=data/travel">驴友游记</a></li>
           <li><a href="index.php?r=data/hotel">酒店</a></li>
-          <li><a href="news.html">个人中心</a></li>
+          <li><a href="index.php?r=data/user">个人中心</a></li>
           <!-- <li><a href="news.html">投诉</a></li> -->
         </ul>
         <!-- script-for-menu -->
