@@ -51,7 +51,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <ul class="nav1">
           <li><a href="index.php?r=data/index">首页 </a></li>
           <li><a href="index.php?r=data/scenic">景点</a></li>
-          <li><a href="index.php?r=data/rim">周边游</a></li>
+          <li><a href="index.php?r=travelaround/index">周边游</a></li>
           <!-- <li><a href="404.html">网站公告</a></li> -->
           <li><a href="index.php?r=data/travel">驴友游记</a></li>
           <li><a href="index.php?r=data/hotel">酒店</a></li>
@@ -91,7 +91,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
               <a href="index.php?r=data/index">首页</a>
               <a href="index.php?r=data/scenic">景点</a>
-              <a href="index.php?r=data/rim">周边游</a>
+              <a href="index.php?r=travelaround/index">周边游</a>
               <!-- <a href="404.html">网站公告</a> -->
               <a href="index.php?r=data/travel">驴友游记</a>
               <a href="index.php?r=data/hotel">酒店</a>
