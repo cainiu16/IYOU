@@ -54,17 +54,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <span class="menu"><img src="images/menu-icon.png" alt=""/></span>
         <ul class="nav1">
           <li><a href="index.php?r=data/index">首页 </a></li>
-<<<<<<< HEAD
-          <li><a href="index.php?r=data/scenic">景点</a></li>
           <li><a href="index.php?r=travelaround/index">周边游</a></li>
-=======
           <li><a href="index.php?r=viewspots/index">景点</a></li>
-<<<<<<< HEAD
           <li><a href="index.php?r=travelaround/index">周边游</a></li>
-=======
-          <li><a href="index.php?r=data/rim">周边游</a></li>
->>>>>>> 8fd6f25f89fb4fe2b8e940fdfe8e918058df9c0f
->>>>>>> 70802c620124c79115e2a7d6ab1ac3ba398c9cd7
           <!-- <li><a href="404.html">网站公告</a></li> -->
           <li><a href="index.php?r=data/travel">驴友游记</a></li>
           <li><a href="index.php?r=data/hotel">酒店</a></li>
@@ -103,11 +95,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="header cbp-spmenu-push">
           <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
               <a href="index.php?r=data/index">首页</a>
-<<<<<<< HEAD
               <a href="index.php?r=viewspots/index">景点</a>
-=======
-              <a href="index.php?r=data/scenic">景点</a>
->>>>>>> 70802c620124c79115e2a7d6ab1ac3ba398c9cd7
               <a href="index.php?r=travelaround/index">周边游</a>
               <!-- <a href="404.html">网站公告</a> -->
               <a href="index.php?r=data/travel">驴友游记</a>
