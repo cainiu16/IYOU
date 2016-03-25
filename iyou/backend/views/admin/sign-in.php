@@ -80,9 +80,8 @@
                     <input type="text" class="span12" name="users">
                     <label>Password</label>
                     <input type="password" class="span12" name="pwds">
-                    <a href="index.html" class="btn btn-primary pull-right">Sign In</a>
+                    <input type="submit" value="sign in"  class="btn btn-primary pull-right">
                     <label class="remember-me"><input type="checkbox"> Remember me</label>
-                    <input type="submit" value="sign in">
                     <div class="clearfix"></div>
                 </form>
             </div>
