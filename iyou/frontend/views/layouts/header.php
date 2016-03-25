@@ -27,6 +27,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/jquery-1.11.0.min.js"></script>
 <link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 <!---- start-smoth-scrolling---->
+    <link href="css/UserCSS.css" rel="stylesheet" type="text/css" />
+    <script src="js/ops.js" type="text/javascript"></script>
+    <script src="js/UserJS.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript">

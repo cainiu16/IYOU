@@ -26,7 +26,6 @@ require('/file/left.php');
                 }
             ?>
             <?= $form->field($model, 'm_tel')->label('手机号：') ?>
-            <?= $form->field($model, 'm_email')->label('邮箱：') ?>
         <div class="form-group">        <div class="col-lg-offset-1 col-lg-11">
                 <?= Html::submitButton('修改', ['class' => 'btn btn-primary']) ?>
             </div>    </div>

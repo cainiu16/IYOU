@@ -23,7 +23,16 @@ use yii\helpers\Html;
                         <div class="row"><label>注册时间：</label><?= $data['m_time']?></div>
                         <div class="row">
                             <label>
-                                账号安全：</label>重庆</div>
+                                账号安全：</label>
+                            <?php
+                                if(empty($data['m_email'])){
+                                    echo "<a href='/index.php?r=user/authemail&id=".$data['m_id']."'>未认证</a>";
+                                }else{
+                                    echo $data['m_email'];
+                                    echo "<button style=>修改</button>";
+                                }
+                            ?>
+                        </div>
                         <div class="row">
                             <label>
                                 现有积分：</label><span class="orange"><?= $data['m_integral']?></span></div>

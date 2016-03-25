@@ -28,7 +28,7 @@ class UserController extends Controller
         //根据ID查对应的数据
         $data=Message::findOne($id);
         //print_r($data);die;
-        return $this->render('user/index',['model'=>$data]);
+        return $this->render('index',['model'=>$data]);
 	}
     //修改用户信息
     public function actionUserinfo(){
@@ -106,10 +106,16 @@ class UserController extends Controller
             ->limit(6)
             ->all();
         //print_r($data);die;
-        return $this->render('user/mall',['data'=>$data]);
+        return $this->render('mall',['data'=>$data]);
     }
     //积分商城详细兑换页面
     public function actionDetail(){
         return $this->render('user/detail');
+    }
+    //认证邮箱
+    public function actionAuthemail(){
+        $request=Yii::$app->request;
+        echo $request->get('id');
+        return $this->render('authemail');
     }
 }
