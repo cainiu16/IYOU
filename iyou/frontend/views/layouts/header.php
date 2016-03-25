@@ -40,50 +40,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <!--start-smoth-scrolling-->
 </head>
 <body>
-<<<<<<< HEAD
-  <!--header-->
-  <div class="header-top" id="home">
-    <div class="container">
-      <div class="header-logo">
-        <a href="index.html"><img src="images/logo.png" alt=""/></a>
-      </div>
-      <div class="top-nav">
-        <span class="menu"><img src="images/menu-icon.png" alt=""/></span>
-        <ul class="nav1">
-          <li><a href="index.php?r=data/index">首页 </a></li>
-          <li><a href="index.php?r=travelaround/index">周边游</a></li>
-          <li><a href="index.php?r=viewspots/index">景点</a></li>
-          <!-- <li><a href="404.html">网站公告</a></li> -->
-          <li><a href="index.php?r=data/travel">驴友游记</a></li>
-          <li><a href="index.php?r=data/hotel">酒店</a></li>
-          <li><a href="index.php?r=data/user">个人中心</a></li>
-          <!-- <li><a href="news.html">投诉</a></li> -->
-        </ul>
-        <!-- script-for-menu -->
-         <script>
-           $( "span.menu" ).click(function() {
-           $( "ul.nav1" ).slideToggle( 300, function() {
-           // Animation complete.
-            });
-           });
-        </script>
-        <!-- /script-for-menu -->
-      </div>
-      <div class="social-icons">
-<!--        <ul>
-          <li><a href="#"><span class="twit"> </span></a></li>
-          <li><a href="#"><span class="fb"> </span></a></li>
-          <li><a href="#"><span class="g"> </span></a></li>
-        </ul> -->
-      </div>
-      <div class="clearfix"> </div>
-=======
 <!--header-->
 <div class="header-top" id="home">
   <div class="container">
     <div class="header-logo">
       <a href="index.html"><img src="images/logo.png" alt=""/></a>
->>>>>>> wangnana
     </div>
     <div class="top-nav">
       <span class="menu"><img src="images/menu-icon.png" alt=""/></span>
@@ -107,56 +68,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       </script>
       <!-- /script-for-menu -->
     </div>
-<<<<<<< HEAD
-    <div class="header-info-right">
-        <div class="header cbp-spmenu-push">
-          <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
-              <a href="index.php?r=data/index">首页</a>
-              <a href="index.php?r=viewspots/index">景点</a>
-              <a href="index.php?r=travelaround/index">周边游</a>
-              <!-- <a href="404.html">网站公告</a> -->
-              <a href="index.php?r=data/travel">驴友游记</a>
-              <a href="index.php?r=data/hotel">酒店</a>
-              <a href="news.html">个人中心</a>
-          </nav>
-          <!--script-nav -->  
-          <script>
-            $("span.menu").click(function(){
-              $("ul.navigatoin").slideToggle("300" , function(){
-              });
-            });
-          </script>
-          <script type="text/javascript">
-                jQuery(document).ready(function($) {
-                  $(".scroll").click(function(event){   
-                    event.preventDefault();
-                    $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-                  });
-                });
-          </script>
-          <div class="clearfix"> </div>
-            <!-- /script-nav -->
-                  <div class="main">
-                    <section class="buttonset">
-                      <button id="showLeftPush"><img src="images/menu.png" /><span>菜单</span></button>
-                    </section>
-                  </div>
-                  <!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
-                  <script src="js/classie.js"></script>
-                  <script>
-                    var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
-                      showLeftPush = document.getElementById( 'showLeftPush' ),
-                      body = document.body;
-              
-                    showLeftPush.onclick = function() {
-        classie.toggle( this, 'active' );
-        classie.toggle( body, 'cbp-spmenu-push-toright' );
-        classie.toggle( menuLeft, 'cbp-spmenu-open' );
-        disableOther( 'showLeftPush' );
-      };
-                  </script>
-        </div>
-=======
     <div class="social-icons">
       <!--        <ul>
                 <li><a href="#"><span class="twit"> </span></a></li>
@@ -181,7 +92,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <a href="index.php?r=data/index">首页</a>
         <a href="index.php?r=viewspots/index">景点</a>
         <a href="index.php?r=travelaround/index">周边游</a>
-        <!-- <a href="404.html">网站公告</a> -->
         <a href="index.php?r=data/travel">驴友游记</a>
         <a href="index.php?r=data/hotel">酒店</a>
         <a href="news.html">个人中心</a>
@@ -207,7 +117,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <section class="buttonset">
           <button id="showLeftPush"><img src="images/menu.png" /><span>菜单</span></button>
         </section>
->>>>>>> wangnana
       </div>
       <!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
       <script src="js/classie.js"></script>
