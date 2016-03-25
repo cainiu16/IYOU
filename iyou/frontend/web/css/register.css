@@ -1,0 +1,21 @@
+body{
+      background-color:gray;
+       
+     }
+     .header{
+          width:100px;
+          height:100px;
+          background-color:red;
+     }
+     .biaodan{
+
+          margin-left:550px;
+          margin-top:220px;
+          color:red;
+      }
+      h1{
+        color:blue;
+          margin-left:550px;
+      }
+
+

@@ -1,104 +1,65 @@
-<!-- Load modernizr or html5shiv -->
-<script src="lib/modernizr/modernizr-custom.js"></script>
-<!--<script src="../lib/html5shiv/html5shiv.js"></script>-->
-<!-- Load jQuery -->
-<script src="lib/jquery/jquery.js"></script>
 
-<!-- Load miSlider -->
-<link href="css/mislider.css" rel="stylesheet">
-<link href="css/mislider-skin-cameo.css" rel="stylesheet">
-<script src="js/mislider.js"></script>
 	<!--//search-scripts-->
-<script>
-	jQuery(function ($) {
-		var slider = $('.mis-stage').miSlider({
-			//  The height of the stage in px. Options: false or positive integer. false = height is calculated using maximum slide heights. Default: false
-			stageHeight: 380,
-			//  Number of slides visible at one time. Options: false or positive integer. false = Fit as many as possible.  Default: 1
-			slidesOnStage: false,
-			//  The location of the current slide on the stage. Options: 'left', 'right', 'center'. Defualt: 'left'
-			slidePosition: 'center',
-			//  The slide to start on. Options: 'beg', 'mid', 'end' or slide number starting at 1 - '1','2','3', etc. Defualt: 'beg'
-			slideStart: 'mid',
-			//  The relative percentage scaling factor of the current slide - other slides are scaled down. Options: positive number 100 or higher. 100 = No scaling. Defualt: 100
-			slideScaling: 150,
-			//  The vertical offset of the slide center as a percentage of slide height. Options:  positive or negative number. Neg value = up. Pos value = down. 0 = No offset. Default: 0
-			offsetV: -5,
-			//  Center slide contents vertically - Boolean. Default: false
-			centerV: true,
-			//  Opacity of the prev and next button navigation when not transitioning. Options: Number between 0 and 1. 0 (transparent) - 1 (opaque). Default: .5
-			navButtonsOpacity: 1
-		});
-	});
-</script>
-<!-- Apply other styles -->
-<link href='http://fonts.useso.com/css?family=Roboto+Condensed:400|Roboto:500' rel='stylesheet'>
-<link href="css/styles.css" rel="stylesheet">
 	<!--magazine-->
 	<div class="magazine">
-		<div id="wrapper">
-			<figure>
-				<div class="mis-stage">
-					<ol class="mis-slider">
-						<li class="mis-slide">
-							<a href="#" class="mis-container">
-								<figure>
-									<img src="http://www.imgs.com/garden01.jpg" alt="Pink Water Lillies">
-									<figcaption>Pink Water Lillies</figcaption>
-								</figure>
-							</a>
-						</li>
-						<li class="mis-slide">
-							<a href="#" class="mis-container">
-								<figure>
-									<img src="http://www.imgs.com/garden02.jpg" alt="Pond with Lillies">
-									<figcaption>Pond with Lillies</figcaption>
-								</figure>
-							</a>
-						</li>
-						<li class="mis-slide">
-							<a href="#" class="mis-container">
-								<figure>
-									<img src="http://www.imgs.com/garden03.jpg" alt="Hidden Pond">
-									<figcaption>Hidden Pond</figcaption>
-								</figure>
-							</a>
-						</li>
-						<li class="mis-slide">
-							<a href="#" class="mis-container">
-								<figure>
-									<img src="http://www.imgs.com/garden04.jpg" alt="Shrine">
-									<figcaption>Shrine</figcaption>
-								</figure>
-							</a>
-						</li>
-						<li class="mis-slide">
-							<a href="#" class="mis-container">
-								<figure>
-									<img src="http://www.imgs.com/garden05.jpg" alt="White Water Lillies">
-									<figcaption>White Water Lillies</figcaption>
-								</figure>
-							</a>
-						</li>
-						<li class="mis-slide">
-							<a href="#" class="mis-container">
-								<figure>
-									<img src="http://www.imgs.com/garden06.jpg" alt="Garden Walkway">
-									<figcaption>Garden Walkway</figcaption>
-								</figure>
-							</a>
-						</li>
-						<li class="mis-slide">
-							<a href="#" class="mis-container">
-								<figure>
-									<img src="http://www.imgs.com/garden07.jpg" alt="Lilly with Bee">
-									<figcaption>Lilly with Bee</figcaption>
-								</figure>
-							</a>
-						</li>
-					</ol>
+		<div class="container">
+			<div class="magazine-top">
+				<div class="col-md-7 magazine-top-left">
+					<div  id="top" class="callbacks_container">
+			    		<ul class="rslides" id="slider4">
+				    		<li>
+								<img src="images/m-1.jpg" alt="" />
+							</li>
+							<li>
+								<img src="images/m-2.jpg" alt="" />
+							</li>
+							<li>
+								<img src="images/m-3.jpg" alt="" />
+							</li>
+							<li>
+								<img src="images/m-4.jpg" alt="" />
+							</li>
+							<li>
+								<img src="images/m-5.jpg" alt="" />
+							</li>
+			     		</ul>
+			 		</div>
+					<div class="clearfix"> </div>
 				</div>
-		</div>
+				<div class="col-md-5 magazine-top-right">
+					<div class="mag-top">
+						<div class="col-md-4 mag-top-left">
+							<a href="single.html"><img src="images/m-6.jpg" alt="" /></a>
+						</div>
+						<div class="col-md-8 mag-top-left">
+							<a href="single.html"><h4>Vestibulum ante ipsum primis</h4></a>
+							<p>Pellentesque et gravida lacus Sed quis gravida elit Vestibulum fermentum.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="mag-top">
+						<div class="col-md-4 mag-top-left">
+							<a href="single.html"><img src="images/m-8.jpg" alt="" /></a>
+						</div>
+						<div class="col-md-8 mag-top-left">
+							<a href="single.html"><h4>Cras vitae risus nec turpis</h4></a>
+							<p>Pellentesque et gravida lacus Sed quis gravida elit Vestibulum fermentum.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="mag-top">
+						<div class="col-md-4 mag-top-left">
+							<a href="single.html"><img src="images/m-9.jpg" alt="" /></a>
+						</div>
+						<div class="col-md-8 mag-top-left">
+							<a href="single.html"><h4> Aliquam hendrerit diam nisl</h4></a>
+							<p>Pellentesque et gravida lacus Sed quis gravida elit Vestibulum fermentum.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
 			<div class="magazine-bottom">
 					<div class="col-md-7 magazine-bottom-left">
 						<h3>Featured Articles</h3>
@@ -178,7 +139,6 @@
 					<div class="clearfix"></div>
 			</div>
 		</div>
-
 	</div>
 	<!--magazine-->
 	<!--Slider-Starts-Here-->
