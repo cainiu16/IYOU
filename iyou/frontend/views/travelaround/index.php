@@ -7,7 +7,7 @@
 				</div>
 			<?php foreach ($arr as $k => $v): ?>
 				<div class="col-md-3 building-left">
-					<a href="index.php?r=travelaround/detial&id=<?php echo $v['t_id']; ?>"><img title="<?php echo $v['t_name']; ?>" src="http://www.image.com/<?php echo $v['t_p_img']; ?>" alt="" /></a>
+					<a href="index.php?r=travelaround/detial&id=<?php echo $v['t_id']; ?>"><img title="<?php echo $v['t_name']; ?>" src="http://<?php echo $v['t_p_img']; ?>" alt="" /></a>
 					<a href="index.php?r=travelaround/detial&id=<?php echo $v['t_id']; ?>"><h4>   <?php echo $v['t_name']; ?></h4></a>
 					<p><?php echo mb_strlen($v['t_content'], 'utf-8') > 50  ? mb_substr($v['t_content'], 0, 30 , 'utf-8').'....' : $v['t_content']; ?></p>
 					<div class="build-btn">
@@ -28,7 +28,7 @@
 			</div>
 			<?php foreach ($row as $k => $v): ?>
 				<div class="col-md-3 building-left">
-					<a href="index.php?r=travelaround/detial&id=<?php echo $v['t_id']; ?>"><img title="<?php echo $v['t_name']; ?>" src="http://www.image.com/<?php echo $v['t_p_img']; ?>" alt="" /></a>
+					<a href="index.php?r=travelaround/detial&id=<?php echo $v['t_id']; ?>"><img title="<?php echo $v['t_name']; ?>" src="http://<?php echo $v['t_p_img']; ?>" alt="" /></a>
 					<a href="index.php?r=travelaround/detial&id=<?php echo $v['t_id']; ?>"><h4>   <?php echo $v['t_name']; ?></h4></a>
 					<p><?php echo mb_strlen($v['t_content'], 'utf-8') > 50  ? mb_substr($v['t_content'], 0, 30 , 'utf-8').'....' : $v['t_content']; ?></p>
 					<div class="build-btn">

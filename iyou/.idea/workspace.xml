@@ -28,7 +28,7 @@
       <file leaf-file-name="ViewspotsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/controllers/ViewspotsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.071429">
+            <state vertical-scroll-proportion="0.0">
               <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
               <folding>
                 <element signature="e#6#102#0#PHP" expanded="true" />
@@ -38,11 +38,59 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="TravelaroundController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/controllers/TravelaroundController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Travelaround.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/models/Travelaround.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="37.714287">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1458867268028" expanded="true" signature="1025:1069" placeholder="select c_id ..city..." />
+                <marker date="1458867268028" expanded="true" signature="1196:1300" placeholder="select * fro..travel..." />
+                <marker date="1458867268028" expanded="true" signature="1440:1479" placeholder="select * fro..travel..." />
+                <marker date="1458867268028" expanded="true" signature="1609:1669" placeholder="select * fro..travel..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/views/travelaround/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.071429">
+              <caret line="9" column="144" selection-start-line="9" selection-start-column="144" selection-end-line="9" selection-end-column="144" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/views/layouts/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.11956522">
+              <caret line="92" column="44" selection-start-line="92" selection-start-column="44" selection-end-line="92" selection-end-column="44" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="magazine.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/views/Viewspots/magazine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+            <state vertical-scroll-proportion="17.119047">
+              <caret line="81" column="119" selection-start-line="81" selection-start-column="119" selection-end-line="81" selection-end-column="119" />
               <folding />
             </state>
           </provider>
@@ -58,18 +106,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Travel.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Travel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/models/Travel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.8858695">
-              <caret line="132" column="40" selection-start-line="132" selection-start-column="40" selection-end-line="132" selection-end-column="40" />
+            <state vertical-scroll-proportion="-8.428572">
+              <caret line="120" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
               <folding>
                 <element signature="e#30#38#0#PHP" expanded="true" />
-                <marker date="1458861708316" expanded="true" signature="2810:2971" placeholder="select * fro..travel..." />
-                <marker date="1458861708316" expanded="true" signature="2810:2972" placeholder="select * fro..travel..." />
-                <marker date="1458861708316" expanded="true" signature="2810:2981" placeholder="select * fro..travel..." />
-                <marker date="1458861708316" expanded="true" signature="2810:2982" placeholder="select * fro..travel..." />
-                <marker date="1458861708316" expanded="true" signature="2810:3007" placeholder="select * fro..travel..." />
+                <marker date="1458862697872" expanded="true" signature="2810:2971" placeholder="select * fro..travel..." />
+                <marker date="1458862697872" expanded="true" signature="2810:2972" placeholder="select * fro..travel..." />
+                <marker date="1458862697872" expanded="true" signature="2810:2981" placeholder="select * fro..travel..." />
+                <marker date="1458862697872" expanded="true" signature="2810:2982" placeholder="select * fro..travel..." />
+                <marker date="1458862697872" expanded="true" signature="2810:3007" placeholder="select * fro..travel..." />
               </folding>
             </state>
           </provider>
@@ -84,11 +132,12 @@
         <option value="$PROJECT_DIR$/frontend/config/main.php" />
         <option value="$PROJECT_DIR$/frontend/views/data/magazine.php" />
         <option value="$PROJECT_DIR$/frontend/controllers/DataController.php" />
-        <option value="$PROJECT_DIR$/frontend/views/layouts/header.php" />
         <option value="$PROJECT_DIR$/frontend/controllers/Viewspots.php" />
-        <option value="$PROJECT_DIR$/frontend/views/Viewspots/magazine.php" />
-        <option value="$PROJECT_DIR$/frontend/models/Travel.php" />
         <option value="$PROJECT_DIR$/frontend/controllers/ViewspotsController.php" />
+        <option value="$PROJECT_DIR$/frontend/models/Travel.php" />
+        <option value="$PROJECT_DIR$/frontend/views/Viewspots/magazine.php" />
+        <option value="$PROJECT_DIR$/frontend/views/travelaround/index.php" />
+        <option value="$PROJECT_DIR$/frontend/views/layouts/header.php" />
       </list>
     </option>
   </component>
@@ -132,6 +181,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -181,8 +232,26 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Viewspots" />
+              <option name="myItemId" value="iyou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iyou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travelaround" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -201,6 +270,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -242,8 +315,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,10 +367,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08245083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16641453" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -334,6 +405,119 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/frontend/controllers/ViewspotsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="e#6#102#0#PHP" expanded="true" />
+            <element signature="e#138#160#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/controllers/TravelaroundController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/models/Travelaround.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1458867268028" expanded="true" signature="1025:1069" placeholder="select c_id ..city..." />
+            <marker date="1458867268028" expanded="true" signature="1196:1300" placeholder="select * fro..travel..." />
+            <marker date="1458867268028" expanded="true" signature="1440:1479" placeholder="select * fro..travel..." />
+            <marker date="1458867268028" expanded="true" signature="1609:1669" placeholder="select * fro..travel..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/travelaround/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="153" selection-start-line="30" selection-start-column="153" selection-end-line="30" selection-end-column="153" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/Viewspots/magazine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/models/Travel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="120" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding>
+            <element signature="e#30#38#0#PHP" expanded="true" />
+            <marker date="1458862697872" expanded="true" signature="2810:2971" placeholder="select * fro..travel..." />
+            <marker date="1458862697872" expanded="true" signature="2810:2972" placeholder="select * fro..travel..." />
+            <marker date="1458862697872" expanded="true" signature="2810:2981" placeholder="select * fro..travel..." />
+            <marker date="1458862697872" expanded="true" signature="2810:2982" placeholder="select * fro..travel..." />
+            <marker date="1458862697872" expanded="true" signature="2810:3007" placeholder="select * fro..travel..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/controllers/ViewspotsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="e#6#102#0#PHP" expanded="true" />
+            <element signature="e#138#160#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/Viewspots/magazine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/models/Travel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#30#38#0#PHP" expanded="true" />
+            <marker date="1458862697872" expanded="true" signature="2810:2971" placeholder="select * fro..travel..." />
+            <marker date="1458862697872" expanded="true" signature="2810:2972" placeholder="select * fro..travel..." />
+            <marker date="1458862697872" expanded="true" signature="2810:2981" placeholder="select * fro..travel..." />
+            <marker date="1458862697872" expanded="true" signature="2810:2982" placeholder="select * fro..travel..." />
+            <marker date="1458862697872" expanded="true" signature="2810:3007" placeholder="select * fro..travel..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/controllers/ViewspotsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -409,26 +593,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/views/layouts/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29891303">
-          <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/data/Pagination.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="7.7746477">
           <caret line="131" column="12" selection-start-line="131" selection-start-column="12" selection-end-line="131" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/views/Viewspots/magazine.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -442,7 +610,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/controllers/ViewspotsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.071429">
+        <state vertical-scroll-proportion="0.0">
           <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
           <folding>
             <element signature="e#6#102#0#PHP" expanded="true" />
@@ -451,17 +619,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/controllers/TravelaroundController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/Viewspots/magazine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="17.119047">
+          <caret line="81" column="119" selection-start-line="81" selection-start-column="119" selection-end-line="81" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/models/Travel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.8858695">
-          <caret line="132" column="40" selection-start-line="132" selection-start-column="40" selection-end-line="132" selection-end-column="40" />
+        <state vertical-scroll-proportion="-8.428572">
+          <caret line="120" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
           <folding>
             <element signature="e#30#38#0#PHP" expanded="true" />
-            <marker date="1458861708316" expanded="true" signature="2810:2971" placeholder="select * fro..travel..." />
-            <marker date="1458861708316" expanded="true" signature="2810:2972" placeholder="select * fro..travel..." />
-            <marker date="1458861708316" expanded="true" signature="2810:2981" placeholder="select * fro..travel..." />
-            <marker date="1458861708316" expanded="true" signature="2810:2982" placeholder="select * fro..travel..." />
-            <marker date="1458861708316" expanded="true" signature="2810:3007" placeholder="select * fro..travel..." />
+            <marker date="1458862697872" expanded="true" signature="2810:2971" placeholder="select * fro..travel..." />
+            <marker date="1458862697872" expanded="true" signature="2810:2972" placeholder="select * fro..travel..." />
+            <marker date="1458862697872" expanded="true" signature="2810:2981" placeholder="select * fro..travel..." />
+            <marker date="1458862697872" expanded="true" signature="2810:2982" placeholder="select * fro..travel..." />
+            <marker date="1458862697872" expanded="true" signature="2810:3007" placeholder="select * fro..travel..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/models/Travelaround.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="37.714287">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1458867268028" expanded="true" signature="1025:1069" placeholder="select c_id ..city..." />
+            <marker date="1458867268028" expanded="true" signature="1196:1300" placeholder="select * fro..travel..." />
+            <marker date="1458867268028" expanded="true" signature="1440:1479" placeholder="select * fro..travel..." />
+            <marker date="1458867268028" expanded="true" signature="1609:1669" placeholder="select * fro..travel..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/travelaround/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.071429">
+          <caret line="9" column="144" selection-start-line="9" selection-start-column="144" selection-end-line="9" selection-end-column="144" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/layouts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11956522">
+          <caret line="92" column="44" selection-start-line="92" selection-start-column="44" selection-end-line="92" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
