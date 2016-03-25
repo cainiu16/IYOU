@@ -43,7 +43,7 @@ use yii\widgets\LinkPager;
 							<li class="mis-slide">
 								<a href="index.php?r=viewspots/detail?id=<?php echo $v['t_id']?>" class="mis-container">
 									<figure>
-										<img src="http://www.imgs.com/<?php echo $v['t_p_img'];?>" alt="Pink Water Lillies">
+										<img src="http://<?php echo $v['t_p_img'];?>" alt="Pink Water Lillies">
 										<figcaption><?php echo $v['t_name'];?></figcaption>
 									</figure>
 								</a>
@@ -58,7 +58,7 @@ use yii\widgets\LinkPager;
 						<?php foreach($season as $k=>$v) {?>
 											<div class="mag-btm">
 												<div class="col-md-4 mag-btm-left">
-													<a href="index.php?r=viewspots/detail&id=<?php echo $v['t_id']?>"><img src="http://www.imgs.com/<?php echo $v['t_p_img']?>" alt="<?php echo $v['t_name']?>" /></a>
+													<a href="index.php?r=viewspots/detail&id=<?php echo $v['t_id']?>"><img src="http://<?php echo $v['t_p_img']?>" alt="<?php echo $v['t_name']?>" /></a>
 												</div>
 												<div class="col-md-8 mag-btm-left">
 													<a href="index.php?r=viewspots/detail&id=<?php echo $v['t_id']?>"><h4><?php echo $v['t_name']?></h4></a>
@@ -79,7 +79,7 @@ use yii\widgets\LinkPager;
 						<?php foreach($season as $k=>$v) {?>
 							<div class="mag-btm">
 								<div class="col-md-4 mag-btm-left">
-									<a href="index.php?r=viewspots/detail&id=<?php echo $v['t_id']?>"><img src="http://www.imgs.com/<?php echo $v['t_p_img']?>" alt="<?php echo $v['t_name']?>" /></a>
+									<a href="index.php?r=viewspots/detail&id=<?php echo $v['t_id']?>"><img src="http://<?php echo $v['t_p_img']?>" alt="<?php echo $v['t_name']?>" /></a>
 								</div>
 								<div class="col-md-8 mag-btm-left">
 									<a href="index.php?r=viewspots/detail&id=<?php echo $v['t_id']?>"><h4><?php echo $v['t_name']?></h4></a>
