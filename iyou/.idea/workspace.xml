@@ -31,7 +31,11 @@
       <file leaf-file-name="ViewspotsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/controllers/ViewspotsController.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="1200">
+=======
+            <state vertical-scroll-proportion="-14.714286">
+>>>>>>> 33cacfa3ddf9709960b98c4bf9fcdd864327a513
               <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
               <folding>
                 <element signature="e#6#102#0#PHP" expanded="true" />
@@ -44,7 +48,11 @@
       <file leaf-file-name="TravelaroundController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/controllers/TravelaroundController.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1650">
+=======
+            <state vertical-scroll-proportion="-0.0">
+>>>>>>> 33cacfa3ddf9709960b98c4bf9fcdd864327a513
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -54,7 +62,15 @@
       <file leaf-file-name="Travelaround.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/models/Travelaround.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2340">
+=======
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="52.07143">
+=======
+            <state vertical-scroll-proportion="0.0">
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
+>>>>>>> 33cacfa3ddf9709960b98c4bf9fcdd864327a513
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -74,9 +90,22 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/views/layouts/header.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="-7.3076925" vertical-offset="7665" max-vertical-offset="8130">
+=======
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="5.7391305">
+              <caret line="93" column="56" selection-start-line="0" selection-start-column="0" selection-end-line="270" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+=======
+            <state vertical-scroll-proportion="0.8804348">
+>>>>>>> 33cacfa3ddf9709960b98c4bf9fcdd864327a513
               <caret line="270" column="7" selection-start-line="270" selection-start-column="7" selection-end-line="270" selection-end-column="7" />
               <folding />
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
             </state>
           </provider>
         </entry>
@@ -94,7 +123,15 @@
       <file leaf-file-name="magazine.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/views/Viewspots/magazine.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0" vertical-offset="2430" max-vertical-offset="4050">
+=======
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="-5.6666665">
+=======
+            <state vertical-scroll-proportion="0.0">
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
+>>>>>>> 33cacfa3ddf9709960b98c4bf9fcdd864327a513
               <caret line="81" column="119" selection-start-line="81" selection-start-column="119" selection-end-line="81" selection-end-column="119" />
               <folding />
             </state>
@@ -399,7 +436,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="5" y="52" width="1279" height="682" extended-state="0" />
+=======
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+>>>>>>> 33cacfa3ddf9709960b98c4bf9fcdd864327a513
     <editor active="true" />
     <layout>
       <window_info id="更改" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -767,6 +808,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/frontend/controllers/ViewspotsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -789,6 +831,15 @@
     <entry file="file://$PROJECT_DIR$/frontend/views/Viewspots/magazine.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+=======
+    <entry file="file://$PROJECT_DIR$/frontend/views/Viewspots/magazine.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="-5.6666665">
+=======
+        <state vertical-scroll-proportion="0.0">
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
+>>>>>>> 33cacfa3ddf9709960b98c4bf9fcdd864327a513
           <caret line="81" column="119" selection-start-line="81" selection-start-column="119" selection-end-line="81" selection-end-column="119" />
           <folding />
         </state>
@@ -804,14 +855,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/models/Travelaround.php">
+    <entry file="file://$PROJECT_DIR$/frontend/views/travelaround/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="-7.071429">
+          <caret line="9" column="144" selection-start-line="9" selection-start-column="144" selection-end-line="9" selection-end-column="144" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/controllers/ViewspotsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.714286">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="e#6#102#0#PHP" expanded="true" />
+            <element signature="e#138#160#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/controllers/TravelaroundController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/models/Travelaround.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+=======
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="52.07143">
+=======
+        <state vertical-scroll-proportion="0.0">
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
+>>>>>>> 33cacfa3ddf9709960b98c4bf9fcdd864327a513
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/frontend/views/layouts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.7391305">
+          <caret line="93" column="56" selection-start-line="0" selection-start-column="0" selection-end-line="270" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+=======
     <entry file="file://$PROJECT_DIR$/frontend/views/travelaround/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -825,6 +921,7 @@
         <state vertical-scroll-proportion="-7.3076925" vertical-offset="7665" max-vertical-offset="8130">
           <caret line="270" column="7" selection-start-line="270" selection-start-column="7" selection-end-line="270" selection-end-column="7" />
           <folding />
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
         </state>
       </provider>
     </entry>
