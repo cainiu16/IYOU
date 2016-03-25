@@ -1,4 +1,11 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap Admin</title>
+  </head>
+  <body class=""> 
+  <!--<![endif]-->
     <div class="content">
         
         <div class="header">

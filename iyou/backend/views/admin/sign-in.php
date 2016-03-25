@@ -75,12 +75,12 @@
         <div class="block">
             <p class="block-heading">Sign In</p>
             <div class="block-body">
-                <form>
+                <form action="index.php?r=admin/login" method="post">
                     <label>Username</label>
-                    <input type="text" class="span12">
+                    <input type="text" class="span12" name="users">
                     <label>Password</label>
-                    <input type="password" class="span12">
-                    <a href="index.html" class="btn btn-primary pull-right">Sign In</a>
+                    <input type="password" class="span12" name="pwds">
+                    <input type="submit" value="sign in"  class="btn btn-primary pull-right">
                     <label class="remember-me"><input type="checkbox"> Remember me</label>
                     <div class="clearfix"></div>
                 </form>
