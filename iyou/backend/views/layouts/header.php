@@ -30,7 +30,6 @@ AppAsset::register($this);
     <script src="lib/jquery-1.7.2.min.js" type="text/javascript"></script>
 
     <!-- Demo page code -->
-
     <style type="text/css">
         #line-chart {
             height:300px;
@@ -60,6 +59,7 @@ AppAsset::register($this);
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+
   </head>
 
   <!--[if lt IE 7 ]> <body class="ie ie6"> <![endif]-->
@@ -77,7 +77,7 @@ AppAsset::register($this);
                     <li><a href="#" class="hidden-phone visible-tablet visible-desktop" role="button">Settings</a></li>
                     <li id="fat-menu" class="dropdown">
                         <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="icon-user"></i> Jack Smith
+                            <i class="icon-user"></i><?php $session = Yii::$app->session; echo $session->get('user');?>
                             <i class="icon-caret-down"></i>
                         </a>
 
@@ -86,12 +86,12 @@ AppAsset::register($this);
                             <li class="divider"></li>
                             <li><a tabindex="-1" class="visible-phone" href="#">Settings</a></li>
                             <li class="divider visible-phone"></li>
-                            <li><a tabindex="-1" href="sign-in.html">Logout</a></li>
+                            <li><a tabindex="-1" href="index.php?admin/remove">退出</a></li>
                         </ul>
                     </li>
                     
                 </ul>
-                <a class="brand" href="index.html"><span class="first">Your</span> <span class="second">Company</span></a>
+                <a class="brand" href="index.html"><span class="second">Company</span></a>
         </div>
     </div>
     
@@ -103,24 +103,33 @@ AppAsset::register($this);
             <input type="text" placeholder="Search...">
         </form>
 
-        <a href="#dashboard-menu" class="nav-header" data-toggle="collapse"><i class="icon-dashboard"></i>首页</a>
+        <a href="#dashboard-menu" class="nav-header" data-toggle="collapse"><i class="icon-dashboard"></i>Admin管理<i class="icon-chevron-up"></i></a>
         <ul id="dashboard-menu" class="nav nav-list collapse in">
-            <li><a href="index.html">Home</a></li>
-            <li ><a href="users.html">Sample List</a></li>
-            <li ><a href="user.html">Sample Item</a></li>
-            <li ><a href="media.html">Media</a></li>
-            <li ><a href="calendar.html">Calendar</a></li>
-            
+            <li><a href="index.php?r=admin/admins">admin管理</a></li>
+            <li ><a href="index.php?r=admin/a_add">admin增加</a></li>
+            <li ><a href="index.php?r=admin/a_hui">admin离职人员</a></li>
+           
         </ul>
 
-        <a href="#accounts-menu" class="nav-header" data-toggle="collapse"><i class="icon-briefcase"></i>景点<span class="label label-info"></span></a>
+<!--         <a href="#accounts-menu" class="nav-header" data-toggle="collapse"><i class="icon-briefcase"></i>Account<span class="label label-info">+3</span></a>
         <ul id="accounts-menu" class="nav nav-list collapse">
             <li ><a href="sign-in.html">Sign In</a></li>
             <li ><a href="sign-up.html">Sign Up</a></li>
             <li ><a href="reset-password.html">Reset Password</a></li>
+        </ul> -->
+        
+        <a href="#lunbo-menu" class="nav-header" data-toggle="collapse"><i class="icon-dashboard"></i>轮播图管理</a>
+        <ul id="lunbo-menu" class="nav nav-list collapse">
+            <li><a href="index.php?r=admin/lunbo">轮播图管理</a></li>
+            <li ><a href="index.php?r=admin/zuire">热门景点管理</a></li>
+            <!-- <li ><a href="user.html">Sample Item</a></li>
+            <li ><a href="media.html">Media</a></li>
+            <li ><a href="calendar.html">Calendar</a></li>
+             -->
         </ul>
 
-        <a href="#error-menu" class="nav-header collapsed" data-toggle="collapse"><i class="icon-exclamation-sign"></i>周边游<i class="icon-chevron-up"></i></a>
+        
+        <a href="#error-menu" class="nav-header collapsed" data-toggle="collapse"><i class="icon-exclamation-sign"></i>周边游</a>
         <ul id="error-menu" class="nav nav-list collapse">
             <li ><a href="403.html">403 page</a></li>
             <li ><a href="404.html">404 page</a></li>
@@ -133,11 +142,16 @@ AppAsset::register($this);
             <li ><a href="privacy-policy.html">Privacy Policy</a></li>
             <li ><a href="terms-and-conditions.html">Terms and Conditions</a></li>
         </ul>
+        <a href="#legal-menu1" class="nav-header" data-toggle="collapse"><i class="icon-legal"></i>酒店</a>
+        <ul id="legal-menu1" class="nav nav-list collapse">
+            <li ><a href="index.php?r=admin/jiudian">管理酒店</a></li>
+            <li ><a href="index.php?r=admin/jiudianadd">添加酒店</a></li>
+        </ul>     
 
-        <a href="help.html" class="nav-header" ><i class="icon-question-sign"></i>酒店</a>
-        <a href="faq.html" class="nav-header" ><i class="icon-comment"></i>个人中心</a>
-        <a href="faq.html" class="nav-header" ><i class="icon-comment"></i>管理前台导航</a>
-        <a href="faq.html" class="nav-header" ><i class="icon-comment"></i>管理员中心</a>
+
     </div>
+    
 
     <?= $content ?>
+    </body>
+    </html>

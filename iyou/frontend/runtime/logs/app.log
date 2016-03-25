@@ -29344,6 +29344,7 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1458870053.702
     'REQUEST_TIME' => 1458870053
 ]
+<<<<<<< HEAD
 2016-03-25 09:47:56 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 38693 bytes' 
 
 in F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
@@ -29529,19 +29530,315 @@ $_SERVER = [
     'REQUEST_TIME' => 1458870477
 ]
 2016-03-25 09:47:57 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 38693 bytes' 
+=======
+2016-03-25 10:03:11 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 38693 bytes' 
+
+in F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\www\\travel\\I...', 86, Array)
+#1 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\www\\travel\\I...', Array)
+#3 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:03:11 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\ProgramData\\Lenovo\\ReadyApps;F:\\MYsql\\bin;F:\\MYAQL\\bin;E:\\MYSQL\\bin;E:\\wamp\\MYSQL\\bin;F:\\svn\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'F:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1880'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56114'
+    'SCRIPT_FILENAME' => 'F:/www/travel/IYOU/iyou/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/www/travel/IYOU/iyou/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/www/travel/IYOU/iyou/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.travel.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.travel.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458871391.9227
+    'REQUEST_TIME' => 1458871391
+]
+2016-03-25 10:03:23 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 38693 bytes' 
+
+in F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\www\\travel\\I...', 86, Array)
+#1 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\www\\travel\\I...', Array)
+#3 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:03:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'viewspots/index'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\ProgramData\\Lenovo\\ReadyApps;F:\\MYsql\\bin;F:\\MYAQL\\bin;E:\\MYSQL\\bin;E:\\wamp\\MYSQL\\bin;F:\\svn\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'F:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1880'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=viewspots/index'
+    'QUERY_STRING' => 'r=viewspots/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56122'
+    'SCRIPT_FILENAME' => 'F:/www/travel/IYOU/iyou/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/www/travel/IYOU/iyou/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/www/travel/IYOU/iyou/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.travel.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_REFERER' => 'http://www.travel.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.travel.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458871403.0191
+    'REQUEST_TIME' => 1458871403
+]
+2016-03-25 10:03:29 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 38693 bytes' 
+
+in F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\www\\travel\\I...', 86, Array)
+#1 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\www\\travel\\I...', Array)
+#3 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:03:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'data/travel'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\ProgramData\\Lenovo\\ReadyApps;F:\\MYsql\\bin;F:\\MYAQL\\bin;E:\\MYSQL\\bin;E:\\wamp\\MYSQL\\bin;F:\\svn\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'F:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1880'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=data/travel'
+    'QUERY_STRING' => 'r=data/travel'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56137'
+    'SCRIPT_FILENAME' => 'F:/www/travel/IYOU/iyou/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/www/travel/IYOU/iyou/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/www/travel/IYOU/iyou/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.travel.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_REFERER' => 'http://www.travel.com/index.php?r=viewspots/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.travel.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458871409.4445
+    'REQUEST_TIME' => 1458871409
+]
+2016-03-25 10:03:32 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 38693 bytes' 
+
+in F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\www\\travel\\I...', 86, Array)
+#1 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\www\\travel\\I...', Array)
+#3 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:03:31 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'travelaround/index'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\ProgramData\\Lenovo\\ReadyApps;F:\\MYsql\\bin;F:\\MYAQL\\bin;E:\\MYSQL\\bin;E:\\wamp\\MYSQL\\bin;F:\\svn\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'F:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1880'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=travelaround/index'
+    'QUERY_STRING' => 'r=travelaround/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56139'
+    'SCRIPT_FILENAME' => 'F:/www/travel/IYOU/iyou/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/www/travel/IYOU/iyou/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/www/travel/IYOU/iyou/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.travel.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_REFERER' => 'http://www.travel.com/index.php?r=data/travel'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.travel.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458871411.5821
+    'REQUEST_TIME' => 1458871411
+]
+2016-03-25 10:03:51 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 38693 bytes' 
+
+in F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\www\\travel\\I...', 86, Array)
+#1 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\www\\travel\\I...', Array)
+#3 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\www\travel\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:03:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'data/index'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\ProgramData\\Lenovo\\ReadyApps;F:\\MYsql\\bin;F:\\MYAQL\\bin;E:\\MYSQL\\bin;E:\\wamp\\MYSQL\\bin;F:\\svn\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'F:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1880'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=data/index'
+    'QUERY_STRING' => 'r=data/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56147'
+    'SCRIPT_FILENAME' => 'F:/www/travel/IYOU/iyou/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/www/travel/IYOU/iyou/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/www/travel/IYOU/iyou/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.travel.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_REFERER' => 'http://www.travel.com/index.php?r=travelaround/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_HOST' => 'www.travel.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458871431.6903
+    'REQUEST_TIME' => 1458871431
+]
+2016-03-25 10:44:45 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 53969 bytes' 
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
 
 in F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
 
 Stack trace:
 #0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\myproject\\IY...', 86, Array)
+<<<<<<< HEAD
 #1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+=======
+#1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\n<...')
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
 #2 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\myproject\\IY...', Array)
 #3 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
 #4 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
 #5 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
 #6 [internal function]: yii\log\Logger->flush(true)
 #7 {main}
+<<<<<<< HEAD
 2016-03-25 09:47:57 [127.0.0.1][-][-][info][application] $_COOKIE = [
+=======
+2016-03-25 10:44:45 [127.0.0.1][-][-][info][application] $_COOKIE = [
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
     'PHPSESSID' => '56nd6veou2p7bm0gg1mja1bn37'
     '_csrf' => '004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq\";}'
 ]
@@ -29591,20 +29888,33 @@ $_SERVER = [
     'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+<<<<<<< HEAD
+=======
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
     'HTTP_CONNECTION' => 'keep-alive'
     'HTTP_HOST' => 'www.gitiyou.com'
     'REDIRECT_STATUS' => '200'
     'SERVER_NAME' => 'www.gitiyou.com'
     'SERVER_PORT' => '80'
     'SERVER_ADDR' => '127.0.0.1'
+<<<<<<< HEAD
     'REMOTE_PORT' => '52445'
+=======
+    'REMOTE_PORT' => '52942'
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
     'REMOTE_ADDR' => '127.0.0.1'
     'SERVER_SOFTWARE' => 'nginx/1.9.9'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
     'DOCUMENT_ROOT' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
     'DOCUMENT_URI' => '/index.php'
+<<<<<<< HEAD
     'REQUEST_URI' => '/css/bootstrap.css.map'
+=======
+    'REQUEST_URI' => '/'
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
     'SCRIPT_NAME' => '/index.php'
     'CONTENT_LENGTH' => ''
     'CONTENT_TYPE' => ''
@@ -29615,23 +29925,38 @@ $_SERVER = [
     'SCRIPT_FILENAME' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web/index.php'
     'FCGI_ROLE' => 'RESPONDER'
     'PHP_SELF' => '/index.php'
+<<<<<<< HEAD
     'REQUEST_TIME_FLOAT' => 1458870477.5062
     'REQUEST_TIME' => 1458870477
 ]
 2016-03-25 09:47:58 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 38693 bytes' 
+=======
+    'REQUEST_TIME_FLOAT' => 1458873885.3662
+    'REQUEST_TIME' => 1458873885
+]
+2016-03-25 10:44:46 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 53969 bytes' 
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
 
 in F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
 
 Stack trace:
 #0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\myproject\\IY...', 86, Array)
+<<<<<<< HEAD
 #1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+=======
+#1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\n<...')
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
 #2 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\myproject\\IY...', Array)
 #3 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
 #4 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
 #5 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
 #6 [internal function]: yii\log\Logger->flush(true)
 #7 {main}
+<<<<<<< HEAD
 2016-03-25 09:47:57 [127.0.0.1][-][-][info][application] $_COOKIE = [
+=======
+2016-03-25 10:44:46 [127.0.0.1][-][-][info][application] $_COOKIE = [
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
     'PHPSESSID' => '56nd6veou2p7bm0gg1mja1bn37'
     '_csrf' => '004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq\";}'
 ]
@@ -29689,7 +30014,11 @@ $_SERVER = [
     'SERVER_NAME' => 'www.gitiyou.com'
     'SERVER_PORT' => '80'
     'SERVER_ADDR' => '127.0.0.1'
+<<<<<<< HEAD
     'REMOTE_PORT' => '52445'
+=======
+    'REMOTE_PORT' => '52942'
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
     'REMOTE_ADDR' => '127.0.0.1'
     'SERVER_SOFTWARE' => 'nginx/1.9.9'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
@@ -29707,6 +30036,7 @@ $_SERVER = [
     'SCRIPT_FILENAME' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web/index.php'
     'FCGI_ROLE' => 'RESPONDER'
     'PHP_SELF' => '/index.php'
+<<<<<<< HEAD
     'REQUEST_TIME_FLOAT' => 1458870477.8953
     'REQUEST_TIME' => 1458870477
 ]
@@ -29756,6 +30086,25 @@ Stack trace:
 Additional Information:
 
 2016-03-25 09:48:00 [127.0.0.1][-][-][info][application] $_GET = [
+=======
+    'REQUEST_TIME_FLOAT' => 1458873886.4962
+    'REQUEST_TIME' => 1458873886
+]
+2016-03-25 10:44:49 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 53969 bytes' 
+
+in F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\myproject\\IY...', 86, Array)
+#1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\n<...')
+#2 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\myproject\\IY...', Array)
+#3 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:44:49 [127.0.0.1][-][-][info][application] $_GET = [
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
     'r' => 'viewspots/index'
 ]
 
@@ -29818,7 +30167,11 @@ $_SERVER = [
     'SERVER_NAME' => 'www.gitiyou.com'
     'SERVER_PORT' => '80'
     'SERVER_ADDR' => '127.0.0.1'
+<<<<<<< HEAD
     'REMOTE_PORT' => '52445'
+=======
+    'REMOTE_PORT' => '52942'
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
     'REMOTE_ADDR' => '127.0.0.1'
     'SERVER_SOFTWARE' => 'nginx/1.9.9'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
@@ -29836,6 +30189,7 @@ $_SERVER = [
     'SCRIPT_FILENAME' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web/index.php'
     'FCGI_ROLE' => 'RESPONDER'
     'PHP_SELF' => '/index.php'
+<<<<<<< HEAD
     'REQUEST_TIME_FLOAT' => 1458870480.7884
     'REQUEST_TIME' => 1458870480
 ]
@@ -29889,6 +30243,25 @@ Additional Information:
 ]
 
 $_COOKIE = [
+=======
+    'REQUEST_TIME_FLOAT' => 1458873889.3374
+    'REQUEST_TIME' => 1458873889
+]
+2016-03-25 10:44:49 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 53969 bytes' 
+
+in F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\myproject\\IY...', 86, Array)
+#1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\n<...')
+#2 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\myproject\\IY...', Array)
+#3 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:44:49 [127.0.0.1][-][-][info][application] $_COOKIE = [
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
     'PHPSESSID' => '56nd6veou2p7bm0gg1mja1bn37'
     '_csrf' => '004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq\";}'
 ]
@@ -29937,34 +30310,53 @@ $_SERVER = [
     'HTTP_COOKIE' => 'PHPSESSID=56nd6veou2p7bm0gg1mja1bn37; _csrf=004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq%22%3B%7D'
     'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+<<<<<<< HEAD
     'HTTP_REFERER' => 'http://www.gitiyou.com/'
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+=======
+    'HTTP_REFERER' => 'http://www.gitiyou.com/index.php?r=viewspots/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
     'HTTP_CONNECTION' => 'keep-alive'
     'HTTP_HOST' => 'www.gitiyou.com'
     'REDIRECT_STATUS' => '200'
     'SERVER_NAME' => 'www.gitiyou.com'
     'SERVER_PORT' => '80'
     'SERVER_ADDR' => '127.0.0.1'
+<<<<<<< HEAD
     'REMOTE_PORT' => '52486'
+=======
+    'REMOTE_PORT' => '52942'
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
     'REMOTE_ADDR' => '127.0.0.1'
     'SERVER_SOFTWARE' => 'nginx/1.9.9'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
     'DOCUMENT_ROOT' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
     'DOCUMENT_URI' => '/index.php'
+<<<<<<< HEAD
     'REQUEST_URI' => '/index.php?r=viewspots/index'
+=======
+    'REQUEST_URI' => '/css/styles.css'
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
     'SCRIPT_NAME' => '/index.php'
     'CONTENT_LENGTH' => ''
     'CONTENT_TYPE' => ''
     'REQUEST_METHOD' => 'GET'
+<<<<<<< HEAD
     'QUERY_STRING' => 'r=viewspots/index'
+=======
+    'QUERY_STRING' => ''
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
     'PATH_TRANSLATED' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
     'PATH_INFO' => ''
     'SCRIPT_FILENAME' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web/index.php'
     'FCGI_ROLE' => 'RESPONDER'
     'PHP_SELF' => '/index.php'
+<<<<<<< HEAD
     'REQUEST_TIME_FLOAT' => 1458870524.902
     'REQUEST_TIME' => 1458870524
 ]
@@ -30014,6 +30406,25 @@ Stack trace:
 Additional Information:
 
 2016-03-25 09:49:06 [127.0.0.1][-][-][info][application] $_GET = [
+=======
+    'REQUEST_TIME_FLOAT' => 1458873889.6134
+    'REQUEST_TIME' => 1458873889
+]
+2016-03-25 10:44:52 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 53969 bytes' 
+
+in F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\myproject\\IY...', 86, Array)
+#1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\n<...')
+#2 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\myproject\\IY...', Array)
+#3 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:44:52 [127.0.0.1][-][-][info][application] $_GET = [
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
     'r' => 'travelaround/index'
 ]
 
@@ -30066,7 +30477,11 @@ $_SERVER = [
     'HTTP_COOKIE' => 'PHPSESSID=56nd6veou2p7bm0gg1mja1bn37; _csrf=004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq%22%3B%7D'
     'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+<<<<<<< HEAD
     'HTTP_REFERER' => 'http://www.gitiyou.com/'
+=======
+    'HTTP_REFERER' => 'http://www.gitiyou.com/index.php?r=viewspots/index'
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
@@ -30076,7 +30491,11 @@ $_SERVER = [
     'SERVER_NAME' => 'www.gitiyou.com'
     'SERVER_PORT' => '80'
     'SERVER_ADDR' => '127.0.0.1'
+<<<<<<< HEAD
     'REMOTE_PORT' => '52492'
+=======
+    'REMOTE_PORT' => '52942'
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
     'REMOTE_ADDR' => '127.0.0.1'
     'SERVER_SOFTWARE' => 'nginx/1.9.9'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
@@ -30094,6 +30513,7 @@ $_SERVER = [
     'SCRIPT_FILENAME' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web/index.php'
     'FCGI_ROLE' => 'RESPONDER'
     'PHP_SELF' => '/index.php'
+<<<<<<< HEAD
     'REQUEST_TIME_FLOAT' => 1458870546.2032
     'REQUEST_TIME' => 1458870546
 ]
@@ -30272,6 +30692,26 @@ Additional Information:
 
 2016-03-25 09:49:52 [127.0.0.1][-][-][info][application] $_GET = [
     'r' => 'viewspots/index'
+=======
+    'REQUEST_TIME_FLOAT' => 1458873892.3026
+    'REQUEST_TIME' => 1458873892
+]
+2016-03-25 10:47:57 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 53969 bytes' 
+
+in F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\myproject\\IY...', 86, Array)
+#1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\n<...')
+#2 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\myproject\\IY...', Array)
+#3 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:47:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'travelaround/index'
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
 ]
 
 $_COOKIE = [
@@ -30323,7 +30763,123 @@ $_SERVER = [
     'HTTP_COOKIE' => 'PHPSESSID=56nd6veou2p7bm0gg1mja1bn37; _csrf=004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq%22%3B%7D'
     'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+<<<<<<< HEAD
     'HTTP_REFERER' => 'http://www.gitiyou.com/'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+=======
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.gitiyou.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.gitiyou.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+<<<<<<< HEAD
+    'REMOTE_PORT' => '52494'
+=======
+    'REMOTE_PORT' => '52974'
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.9'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'DOCUMENT_URI' => '/index.php'
+<<<<<<< HEAD
+    'REQUEST_URI' => '/index.php?r=viewspots/index'
+=======
+    'REQUEST_URI' => '/index.php?r=travelaround/index'
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+<<<<<<< HEAD
+    'QUERY_STRING' => 'r=viewspots/index'
+=======
+    'QUERY_STRING' => 'r=travelaround/index'
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
+    'PATH_TRANSLATED' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+<<<<<<< HEAD
+    'REQUEST_TIME_FLOAT' => 1458870592.9439
+    'REQUEST_TIME' => 1458870592
+=======
+    'REQUEST_TIME_FLOAT' => 1458874076.5601
+    'REQUEST_TIME' => 1458874076
+>>>>>>> aec023029fe8e88732b103db19ce3c67bdc59cdb
+]
+2016-03-25 10:51:18 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 66594 bytes' 
+
+in F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\myproject\\IY...', 86, Array)
+#1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\myproject\\IY...', Array)
+#3 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:51:18 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '56nd6veou2p7bm0gg1mja1bn37'
+    '_csrf' => '004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'MS-20151220FWNU'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MS-20151220FWNU'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;F:\\nine\\bin;F:\\TOSVN\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;F:\\nine\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'MS-20151220FWNU'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'F:\\nine\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=56nd6veou2p7bm0gg1mja1bn37; _csrf=004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
@@ -30333,7 +30889,196 @@ $_SERVER = [
     'SERVER_NAME' => 'www.gitiyou.com'
     'SERVER_PORT' => '80'
     'SERVER_ADDR' => '127.0.0.1'
-    'REMOTE_PORT' => '52494'
+    'REMOTE_PORT' => '52997'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.9'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458874278.8147
+    'REQUEST_TIME' => 1458874278
+]
+2016-03-25 10:51:19 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 66594 bytes' 
+
+in F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\myproject\\IY...', 86, Array)
+#1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\myproject\\IY...', Array)
+#3 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:51:19 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '56nd6veou2p7bm0gg1mja1bn37'
+    '_csrf' => '004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'MS-20151220FWNU'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MS-20151220FWNU'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;F:\\nine\\bin;F:\\TOSVN\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;F:\\nine\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'MS-20151220FWNU'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'F:\\nine\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=56nd6veou2p7bm0gg1mja1bn37; _csrf=004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.gitiyou.com/css/owl.carousel.css'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.gitiyou.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.gitiyou.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52997'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.9'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/css/AjaxLoader.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458874279.1967
+    'REQUEST_TIME' => 1458874279
+]
+2016-03-25 10:51:20 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 66594 bytes' 
+
+in F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\myproject\\IY...', 86, Array)
+#1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\myproject\\IY...', Array)
+#3 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:51:20 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'viewspots/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '56nd6veou2p7bm0gg1mja1bn37'
+    '_csrf' => '004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'MS-20151220FWNU'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MS-20151220FWNU'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;F:\\nine\\bin;F:\\TOSVN\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;F:\\nine\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'MS-20151220FWNU'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'F:\\nine\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=56nd6veou2p7bm0gg1mja1bn37; _csrf=004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.gitiyou.com/index.php'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.gitiyou.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.gitiyou.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52997'
     'REMOTE_ADDR' => '127.0.0.1'
     'SERVER_SOFTWARE' => 'nginx/1.9.9'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
@@ -30351,6 +31096,1049 @@ $_SERVER = [
     'SCRIPT_FILENAME' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web/index.php'
     'FCGI_ROLE' => 'RESPONDER'
     'PHP_SELF' => '/index.php'
-    'REQUEST_TIME_FLOAT' => 1458870592.9439
-    'REQUEST_TIME' => 1458870592
+    'REQUEST_TIME_FLOAT' => 1458874280.7358
+    'REQUEST_TIME' => 1458874280
+]
+2016-03-25 10:51:21 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 66594 bytes' 
+
+in F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\myproject\\IY...', 86, Array)
+#1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\myproject\\IY...', Array)
+#3 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:51:21 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '56nd6veou2p7bm0gg1mja1bn37'
+    '_csrf' => '004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'MS-20151220FWNU'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MS-20151220FWNU'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;F:\\nine\\bin;F:\\TOSVN\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;F:\\nine\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'MS-20151220FWNU'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'F:\\nine\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=56nd6veou2p7bm0gg1mja1bn37; _csrf=004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.gitiyou.com/index.php?r=viewspots/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.gitiyou.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.gitiyou.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52997'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.9'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/css/styles.css'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458874281.0088
+    'REQUEST_TIME' => 1458874281
+]
+2016-03-25 10:51:23 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 66594 bytes' 
+
+in F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\myproject\\IY...', 86, Array)
+#1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\myproject\\IY...', Array)
+#3 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:51:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'travelaround/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '56nd6veou2p7bm0gg1mja1bn37'
+    '_csrf' => '004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'MS-20151220FWNU'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MS-20151220FWNU'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;F:\\nine\\bin;F:\\TOSVN\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;F:\\nine\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'MS-20151220FWNU'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'F:\\nine\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=56nd6veou2p7bm0gg1mja1bn37; _csrf=004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.gitiyou.com/index.php?r=viewspots/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.gitiyou.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.gitiyou.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52997'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.9'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=travelaround/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=travelaround/index'
+    'PATH_TRANSLATED' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458874283.0639
+    'REQUEST_TIME' => 1458874283
+]
+2016-03-25 10:51:25 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 66594 bytes' 
+
+in F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\myproject\\IY...', 86, Array)
+#1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\myproject\\IY...', Array)
+#3 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:51:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'data/travel'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '56nd6veou2p7bm0gg1mja1bn37'
+    '_csrf' => '004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'MS-20151220FWNU'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MS-20151220FWNU'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;F:\\nine\\bin;F:\\TOSVN\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;F:\\nine\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'MS-20151220FWNU'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'F:\\nine\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=56nd6veou2p7bm0gg1mja1bn37; _csrf=004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.gitiyou.com/index.php?r=travelaround/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.gitiyou.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.gitiyou.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52997'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.9'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=data/travel'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=data/travel'
+    'PATH_TRANSLATED' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458874285.8071
+    'REQUEST_TIME' => 1458874285
+]
+2016-03-25 10:51:27 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 66594 bytes' 
+
+in F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\myproject\\IY...', 86, Array)
+#1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\myproject\\IY...', Array)
+#3 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:51:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'data/hotel'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '56nd6veou2p7bm0gg1mja1bn37'
+    '_csrf' => '004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'MS-20151220FWNU'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MS-20151220FWNU'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;F:\\nine\\bin;F:\\TOSVN\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;F:\\nine\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'MS-20151220FWNU'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'F:\\nine\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=56nd6veou2p7bm0gg1mja1bn37; _csrf=004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.gitiyou.com/index.php?r=data/travel'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.gitiyou.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.gitiyou.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52997'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.9'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=data/hotel'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=data/hotel'
+    'PATH_TRANSLATED' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458874287.0981
+    'REQUEST_TIME' => 1458874287
+]
+2016-03-25 10:51:28 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 66594 bytes' 
+
+in F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\myproject\\IY...', 86, Array)
+#1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\myproject\\IY...', Array)
+#3 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:51:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'data/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '56nd6veou2p7bm0gg1mja1bn37'
+    '_csrf' => '004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'MS-20151220FWNU'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MS-20151220FWNU'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;F:\\nine\\bin;F:\\TOSVN\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;F:\\nine\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'MS-20151220FWNU'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'F:\\nine\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=56nd6veou2p7bm0gg1mja1bn37; _csrf=004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.gitiyou.com/index.php?r=data/hotel'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.gitiyou.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.gitiyou.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52997'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.9'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=data/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=data/index'
+    'PATH_TRANSLATED' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458874288.8482
+    'REQUEST_TIME' => 1458874288
+]
+2016-03-25 10:51:29 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 66594 bytes' 
+
+in F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\myproject\\IY...', 86, Array)
+#1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\myproject\\IY...', Array)
+#3 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:51:29 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '56nd6veou2p7bm0gg1mja1bn37'
+    '_csrf' => '004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'MS-20151220FWNU'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MS-20151220FWNU'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;F:\\nine\\bin;F:\\TOSVN\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;F:\\nine\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'MS-20151220FWNU'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'F:\\nine\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=56nd6veou2p7bm0gg1mja1bn37; _csrf=004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.gitiyou.com/css/owl.carousel.css'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.gitiyou.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.gitiyou.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52997'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.9'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/css/AjaxLoader.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458874289.2273
+    'REQUEST_TIME' => 1458874289
+]
+2016-03-25 10:55:28 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 66594 bytes' 
+
+in F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\myproject\\IY...', 86, Array)
+#1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\myproject\\IY...', Array)
+#3 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:55:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'data/hotel'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '56nd6veou2p7bm0gg1mja1bn37'
+    '_csrf' => '004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'MS-20151220FWNU'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MS-20151220FWNU'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;F:\\nine\\bin;F:\\TOSVN\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;F:\\nine\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'MS-20151220FWNU'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'F:\\nine\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=56nd6veou2p7bm0gg1mja1bn37; _csrf=004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.gitiyou.com/index.php?r=data/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.gitiyou.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.gitiyou.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '53033'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.9'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=data/hotel'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=data/hotel'
+    'PATH_TRANSLATED' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458874528.3829
+    'REQUEST_TIME' => 1458874528
+]
+2016-03-25 10:55:29 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 66594 bytes' 
+
+in F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\myproject\\IY...', 86, Array)
+#1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\myproject\\IY...', Array)
+#3 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:55:29 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '56nd6veou2p7bm0gg1mja1bn37'
+    '_csrf' => '004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'MS-20151220FWNU'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MS-20151220FWNU'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;F:\\nine\\bin;F:\\TOSVN\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;F:\\nine\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'MS-20151220FWNU'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'F:\\nine\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=56nd6veou2p7bm0gg1mja1bn37; _csrf=004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.gitiyou.com/index.php?r=data/hotel'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.gitiyou.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.gitiyou.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '53033'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.9'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/news.html'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458874529.618
+    'REQUEST_TIME' => 1458874529
+]
+2016-03-25 10:55:30 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 66594 bytes' 
+
+in F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\myproject\\IY...', 86, Array)
+#1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\myproject\\IY...', Array)
+#3 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:55:30 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '56nd6veou2p7bm0gg1mja1bn37'
+    '_csrf' => '004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'MS-20151220FWNU'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MS-20151220FWNU'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;F:\\nine\\bin;F:\\TOSVN\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;F:\\nine\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'MS-20151220FWNU'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'F:\\nine\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=56nd6veou2p7bm0gg1mja1bn37; _csrf=004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.gitiyou.com/css/owl.carousel.css'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.gitiyou.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.gitiyou.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '53033'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.9'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/css/AjaxLoader.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458874530.02
+    'REQUEST_TIME' => 1458874530
+]
+2016-03-25 10:55:31 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 66594 bytes' 
+
+in F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\myproject\\IY...', 86, Array)
+#1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\myproject\\IY...', Array)
+#3 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:55:31 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'data/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '56nd6veou2p7bm0gg1mja1bn37'
+    '_csrf' => '004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'MS-20151220FWNU'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MS-20151220FWNU'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;F:\\nine\\bin;F:\\TOSVN\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;F:\\nine\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'MS-20151220FWNU'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'F:\\nine\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=56nd6veou2p7bm0gg1mja1bn37; _csrf=004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.gitiyou.com/news.html'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.gitiyou.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.gitiyou.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '53033'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.9'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=data/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=data/index'
+    'PATH_TRANSLATED' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458874531.1751
+    'REQUEST_TIME' => 1458874531
+]
+2016-03-25 10:55:31 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 66594 bytes' 
+
+in F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\myproject\\IY...', 86, Array)
+#1 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\myproject\\IY...', Array)
+#3 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\myproject\IYOU\iyou\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-03-25 10:55:31 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '56nd6veou2p7bm0gg1mja1bn37'
+    '_csrf' => '004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'MS-20151220FWNU'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MS-20151220FWNU'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;F:\\nine\\bin;F:\\TOSVN\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;F:\\nine\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'MS-20151220FWNU'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'F:\\nine\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=56nd6veou2p7bm0gg1mja1bn37; _csrf=004a14be5db084e69163074e40bf58241fa5d26880eb8997c420dbf86b6d243ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFf6wCeCed-oBAXyTyRy1NSvYs2UdmPq%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.gitiyou.com/css/owl.carousel.css'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.gitiyou.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.gitiyou.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '53033'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.9'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/css/AjaxLoader.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'F:\\myproject\\IYOU\\iyou\\frontend\\web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1458874531.5451
+    'REQUEST_TIME' => 1458874531
 ]
