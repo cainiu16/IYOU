@@ -92,7 +92,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <a href="index.php?r=data/index">首页</a>
         <a href="index.php?r=viewspots/index">景点</a>
         <a href="index.php?r=travelaround/index">周边游</a>
-        <!-- <a href="404.html">网站公告</a> -->
         <a href="index.php?r=data/travel">驴友游记</a>
         <a href="index.php?r=data/hotel">酒店</a>
         <a href="news.html">个人中心</a>
