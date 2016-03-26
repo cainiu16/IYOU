@@ -49,8 +49,28 @@
                         </tr>
                         <?php endforeach ?>
                       </table>
-
-
+          
+<center>
+                      <a href="index.php?r=admin/admins&page=<?php 
+                        if ($page-1<1) {
+                            echo '1';
+                        }else{
+                            $aa = $page-1;
+                            echo $aa;
+                        }
+                         ?>">上一页</a>&nbsp;
+                        
+                        <a href="index.php?r=admin/admins&page=<?php 
+                        if ($page+1>$countpage) {
+                            echo "$countpage";
+                        }else{
+                            $bb = $page+1;
+                            echo $bb;
+                        }
+                         ?>">下一页</a><br/>
+                         当前第<?php echo "$page"; ?>页-------
+                         共<?php echo "$countpage";?>页
+</center>
 
                     
                     <footer>

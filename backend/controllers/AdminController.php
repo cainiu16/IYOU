@@ -16,6 +16,7 @@ use app\models\UploadForm;
 class AdminController extends Controller
 {
 	public $enableCsrfValidation = false;
+	//后台登陆
 	public function actionLogin()
 	{
 		$model = new Admin;
@@ -40,11 +41,13 @@ class AdminController extends Controller
 	    	return $this->render('sign-in');  					
     	}
 	}
+	//后台退出
 	public function actionRemove()
 	{
 		$session = Yii::$app->session;
 		$name = $session->remove("user");
 	}
+	//跳转主页面
 	public function actionIndex()
 	{
 		$this->layout="header";
@@ -56,19 +59,36 @@ class AdminController extends Controller
 			echo "<script>alert('请登录');location.href='index.php?r=admin/login';</script>";
 		}
 	}
+	//显示admin列表
 	public function actionAdmins()
 	{
 		$this->layout="header";
 		$model = new Admin;
-		$del = 1;
-		$select = $model->selects($del);
-		// print_r($select);die;
-		return $this->render('admins',['select'=>$select]);  		
+
+		 if (empty($_GET['page'])) {
+           $page = 1;
+        }else{
+            $page = $_GET['page'];
+        }
+
+        $connection = Yii::$app->db;
+		$pagesize = 3;//每页显示条数
+        //查询数据库中一共有多少条数据
+        $postCount = $model->find()->where('a_del=1')->count();
+        $countpage = ceil($postCount/$pagesize);//总页数
+        $limit2 = ($page-1)*$pagesize;//偏移量
+        $del = 1;
+        $select = $model->selects($del,$limit2,$pagesize);
+  		return $this->render('admins',['select'=>$select,'page'=>$page,'countpage'=>$countpage]);  		
 	}
+	//管理员删除
 	public function actionA_del()
 	{
 		$this->layout="header";
 		$model = new Admin;
+		$session = Yii::$app->session;
+		$name = $session->get("user");
+		if ($name=="admin") {
 		$id = $_GET["id"];
 		$type = $_GET['type'];
 		$del = $model->del($id,$type);
@@ -77,11 +97,18 @@ class AdminController extends Controller
 		}else{
 			echo "<script>alert('失败');location.href='index.php?r=admin/admins';</script>";
 		}
+	}else{
+		echo "<script>alert('不好意思，权限不够');location.href='index.php?r=admin/admins';</script>";
+	}
+
 	}
 	public function actionMima_upda()
 	{
 		$this->layout = "header";
 		$model = new Admin;
+		$session = Yii::$app->session;
+		$name = $session->get("user");
+		if ($name=="admin") {
 		if ($_POST) {
 			$id = $_POST['id'];
 			$upda_mima = $model->upda_mima($id);
@@ -97,11 +124,16 @@ class AdminController extends Controller
 			$select = $model->sele($id);
 			return $this->render("admins_mima",['select'=>$select]);
 		}
+
 	}
+}
 	public function actionA_upda()
 	{
 		$this->layout = "header";
 		$model = new Admin;
+		$session = Yii::$app->session;
+		$name = $session->get("user");
+		if ($name=="admin") {
 		if ($_POST) {
 			$updates = $model->updates();
 			if ($updates) {
@@ -114,6 +146,9 @@ class AdminController extends Controller
 			$select = $model->sele($id);
 			return $this->render("admins_upda",['select'=>$select]);
 		}
+		}else{
+		echo "<script>alert('不好意思，权限不够');location.href='index.php?r=admin/admins';</script>";
+	}
 	}
 	public function actionA_add()
 	{
@@ -136,10 +171,21 @@ class AdminController extends Controller
 	{
 		$this->layout="header";
 		$model = new Admin;
-		$del = 0;
-		$select = $model->selects($del);
-		// print_r($select);die;
-		return $this->render('admins',['select'=>$select]);  
+				 if (empty($_GET['page'])) {
+           $page = 1;
+        }else{
+            $page = $_GET['page'];
+        }
+
+        $connection = Yii::$app->db;
+		$pagesize = 3;//每页显示条数
+        //查询数据库中一共有多少条数据
+        $postCount = $model->find()->where('a_del=0')->count();
+        $countpage = ceil($postCount/$pagesize);//总页数
+        $limit2 = ($page-1)*$pagesize;//偏移量
+        $del = 0;
+        $select = $model->selects($del,$limit2,$pagesize);
+		return $this->render('admins',['select'=>$select,'page'=>$page,'countpage'=>$countpage]);    
 	}
 
 
