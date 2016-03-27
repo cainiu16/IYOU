@@ -137,11 +137,11 @@ AppAsset::register($this);
             <li ><a href="503.html">503 page</a></li> -->
         </ul>
 
-        <a href="#legal-menu" class="nav-header" data-toggle="collapse"><i class="icon-legal"></i>驴友游记</a>
+<!--         <a href="#legal-menu" class="nav-header" data-toggle="collapse"><i class="icon-legal"></i>驴友游记</a>
         <ul id="legal-menu" class="nav nav-list collapse">
             <li ><a href="privacy-policy.html">Privacy Policy</a></li>
             <li ><a href="terms-and-conditions.html">Terms and Conditions</a></li>
-        </ul>
+        </ul> -->
         <a href="#legal-menu1" class="nav-header" data-toggle="collapse"><i class="icon-legal"></i>酒店</a>
         <ul id="legal-menu1" class="nav nav-list collapse">
             <li ><a href="index.php?r=admin/jiudian">管理酒店</a></li>
