@@ -334,7 +334,29 @@ class AdminController extends Controller
         $model = new Imgs();
         //调用model层的查询方法
         $info = $model->sel();
-		return $this->render('lunbo',['info'=>$info]);
+        //调用分页方法
+        // $fy = $model->fenye();
+        // $page = $fy['page'];
+        // $content = $fy['content'];
+		// return $this->render('lunbo',['info'=>$info,'page'=>$page,'content'=>$content]);
+
+		$connection = Yii::$app->db;
+         if (empty($_GET['page'])) {
+           $page = 1;
+        }else{
+            $page = $_GET['page'];
+        }
+        $pagesize = 2;//每页显示条数
+        //查询数据库中一共有多少条数据
+        $command = $connection->createCommand('SELECT COUNT(*) FROM imgs');   
+        $postCount = $command->queryScalar();//查询标量值/计算值：queryScalar();
+        $countpage = ceil($postCount/$pagesize);//总页数
+        $limit2 = ($page-1)*$pagesize;//偏移量
+        $command = $connection->createCommand("SELECT * FROM imgs where i_del=1 limit $limit2,$pagesize");
+       //执行查询的sql语句,查询返回多行：
+        $arr = $command->queryAll();
+        //返回结果信息
+        return $this->render('lunbo',['arr'=>$arr,'page'=>$page,'countpage'=>$countpage]);
 	}
 	//首页的最热景点展示管理
 	public function actionZuire()
@@ -356,40 +378,58 @@ class AdminController extends Controller
 	public function actionSave()
 	{
 		$this->layout="header";
-		return $this->render('xiu');
+		$model = new Imgs();
+		$id = $_GET['id'];
+		//根据修改的ID进行查询对应的信息
+		$info = $model->sel2($id);
+		return $this->render('xiu',['model'=>$model,'id'=>$id,'info'=>$info]);
 	}
 	//轮播图执行修改方法
 	public function actionUpload(){
-        $this->layout="header";	
-        $models = new Imgs();
-		$model = new UploadForm();
-       if (Yii::$app->request->isPost) {
-       	// print_r($_FILES['UploadForm']['name']['file']);die;
-        $model->file = UploadedFile::getInstance($model,'i_img');
-        if ($model->file && $model->validate()) {
-            $model->file->saveAs('www.imgss.com/' . $model->file->baseName . '.' . $model->file->extension);
-				$i_imgs = $_FILES['UploadForm']['name']['file'];
-				$i_img = './www.imgss.com/'.$i_imgs;
-				// echo $ads_picture;die;
-				$i_b_times = $_POST['i_b_times'];
-				$i_e_times = $_POST['i_e_times'];
-				$i_content = $_POST['i_content'];
-				$i_desc = $_POST['i_desc'];
-				$models-> i_b_times = $i_b_times;	
-				$models-> i_e_times = $i_e_times;
-				$models-> i_content = $content;
-				$models-> i_desc = $i_desc;
-				$arr = $models->save();
-				if($arr){
-					echo "<script>alert('上传成功');location.href='index.php?r=admin/lunbo';</script>";
-				}else{
-					echo "<script>alert('上传失败');location.href='index.php?r=admin/lunbo';</script>";
-				}
-
+		$this->layout="header";
+		$model = new Imgs();
+		$id = $_POST['id'];
+        $b = $model->i_img = UploadedFile::getInstance($model, 'i_img');
+        if($b){
+            $arr=$model->i_img->saveAs('./../../images/'.$model->i_img->baseName . '.' . $model->i_img->extension);
+            $i_img = 'www.imgss.com/'.$model->i_img->name;
+            $update = $model->upda($i_img);
+        }else{
+                $i_img = "";
+                $update = $model->upda($i_img);
         }
-    }
+        if ($update) {
+                echo "<script>alert('成功');location.href='index.php?r=admin/lunbo';</script>";
+            }else{
+                echo "<script>alert('错误');location.href='index.php?r=admin/save';</script>";
+            }
 
-      return $this->render('upload', ['model' => $model,'info'=>$info]);	
 	}
+	//执行添加调用页面
+	public function actionAdd()
+	{
+		$this->layout="header";	
+		$model = new Imgs();	
+		return $this->render('add',['model'=>$model]);
+	}
+	//执行添加方法
+	public function actionDoadd()
+	{
+		$this->layout="header";
+		$model = new Imgs();
+		//上传的图片处理
+        $b = $model->i_img = UploadedFile::getInstance($model, 'i_img');
+            $arr=$model->i_img->saveAs('./../../images/'.$model->i_img->baseName . '.' . $model->i_img->extension);
+            $i_img = 'www.imgss.com/'.$model->i_img->name;
+            $update = $model->doadd($i_img);
+        if ($update) {
+                echo "<script>alert('成功');location.href='index.php?r=admin/lunbo';</script>";
+            }else{
+                echo "<script>alert('错误');location.href='index.php?r=admin/add';</script>";
+            }
+	}
+
+
+
 
 }

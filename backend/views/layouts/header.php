@@ -121,7 +121,7 @@ AppAsset::register($this);
         <a href="#lunbo-menu" class="nav-header" data-toggle="collapse"><i class="icon-dashboard"></i>轮播图管理</a>
         <ul id="lunbo-menu" class="nav nav-list collapse">
             <li><a href="index.php?r=admin/lunbo">轮播图管理</a></li>
-            <li ><a href="index.php?r=admin/zuire">热门景点管理</a></li>
+            <li ><a href="index.php?r=admins/travel">热门景点管理</a></li>
             <!-- <li ><a href="user.html">Sample Item</a></li>
             <li ><a href="media.html">Media</a></li>
             <li ><a href="calendar.html">Calendar</a></li>

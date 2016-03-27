@@ -28,32 +28,34 @@ use yii\widgets\LinkPager;
 
         <div class="container-fluid">
 
-<a href="index.php?r=admin/add">添加</a>
+<a href="index.php?r=admins/addtravel">添加</a>
 <table border="1">
     <tr>
         <th>ID</th>
-        <th>图片</th>
-        <th>轮播开始时间</th>
-        <th>轮播结束时间</th>
-        <th>地点</th>
-        <th>介绍</th>
+        <th>景点名称</th>
+        <th>景点图片</th>
+        <th>景点介绍</th>
+        <th>景点城市</th>
+        <th>景点季度</th>
+        <th>门票价钱</th>
         <th>操作</th>
     </tr>
     <?php foreach ($arr as $k => $v): ?>
     <tr>
-        <td><?php echo $v['i_id']?></td>
-        <td><img src="<?php echo $v['i_img']?>" alt="无图"></td>
-        <td><?php echo $v['i_b_times']?></td>
-        <td><?php echo $v['i_e_times']?></td>
-        <td><?php echo $v['i_content']?></td>
-        <td><?php echo $v['i_desc']?></td>
-        <td><a onclick="if(confirm('确定移除？')) return true; else return false;" href="index.php?r=admin/del&id=<?php echo $v['i_id']?>" class='outiong'>移除</a>||<a href="index.php?r=admin/save&id=<?php echo $v['i_id']?>">修改</a></td>
+        <td><?php echo $v['t_id']?></td>
+        <td><?php echo $v['t_name']?></td>
+        <td><img src="<?php echo $v['t_p_img']?>" alt="无图"></td>
+        <td> <?php echo mb_strlen($v['t_content'], 'utf-8') > 20  ? mb_substr($v['t_content'], 0, 20 , 'utf-8').'....' : $v['t_content']; ?></td>
+        <td><?php echo $v['c_name']?></td>
+        <td><?php echo $v['s_name']?></td>
+        <td><?php echo $v['t_money']?></td>
+        <td><a onclick="if(confirm('确定移除？')) return true; else return false;" href="index.php?r=admins/del&id=<?php echo $v['t_id']?>" class='outiong'>移除</a>||<a href="index.php?r=admins/save&id=<?php echo $v['t_id']?>">修改</a></td>
     </tr>
 
      <?php endforeach ?>
       <!-- <tr><td colspan="7"></td></tr> -->
 </table>
-                          <a href="index.php?r=admin/lunbo&page=<?php 
+                     <a href="index.php?r=admins/travel&page=<?php 
                         if ($page-1<1) {
                             echo '1';
                         }else{
@@ -62,7 +64,7 @@ use yii\widgets\LinkPager;
                         }
                          ?>">上一页</a>&nbsp;
                         
-                        <a href="index.php?r=admin/lunbo&page=<?php 
+                        <a href="index.php?r=admins/travel&page=<?php 
                         if ($page+1>$countpage) {
                             echo "$countpage";
                         }else{
@@ -70,10 +72,8 @@ use yii\widgets\LinkPager;
                             echo $bb;
                         }
                          ?>">下一页</a><br/>
-                         当前第<?php echo "$page"; ?>页-------
-                         共<?php echo "$countpage";?>页
-
-
+                         当前第<?php echo "$page"; ?>页-----
+                         共<?php echo "$countpage";?>页           
         </div>
     </div>
       
