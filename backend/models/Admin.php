@@ -52,12 +52,21 @@ class Admin extends \yii\db\ActiveRecord
         $sele = $this->findOne(['a_name'=>$user,'a_pwd'=>$pwd]);
         return $sele;
     }
+<<<<<<< HEAD
     public function selects($del)
     {
         if ($del==0) {
             $selects = $this->findBysql("SELECT * from admin INNER JOIN admin_message ON admin.a_id=admin_message.a_id where a_del=0")->asArray()->all();
         }else{
             $selects = $this->findBysql("SELECT * from admin INNER JOIN admin_message ON admin.a_id=admin_message.a_id where a_del=1")->asArray()->all();
+=======
+    public function selects($del,$limit2,$pagesize)
+    {
+        if ($del==0) {
+            $selects = $this->findBysql("SELECT * from admin INNER JOIN admin_message ON admin.a_id=admin_message.a_id where a_del=0 limit $limit2,$pagesize")->asArray()->all();
+        }else{
+            $selects = $this->findBysql("SELECT * from admin INNER JOIN admin_message ON admin.a_id=admin_message.a_id where a_del=1 limit $limit2,$pagesize")->asArray()->all();
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
         }
         return $selects;
     }

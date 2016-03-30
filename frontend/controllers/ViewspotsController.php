@@ -9,11 +9,17 @@
 
 namespace frontend\controllers;
 
+<<<<<<< HEAD
 use app\models\City;
 use app\models\Gropshop;
 use Yii;
 use app\models\Travel;
 use yii\web\Controller;
+=======
+
+use app\models\Travel;
+use yii\base\Controller;
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 
 class ViewspotsController extends Controller
 {
@@ -32,6 +38,7 @@ class ViewspotsController extends Controller
         $info = $season['info'];
         //最热的城市
         $citys = $model->hotcity();
+<<<<<<< HEAD
         $fourcity = $citys[0];
         return $this->render('magazine',['spots'=>$pots,'season'=>$info,'page'=>$page,'city'=>$fourcity]);
     }
@@ -65,5 +72,8 @@ class ViewspotsController extends Controller
             $citys = $hotel->hotels($c_id);
             return $this->render('detcity',['city'=>$detail,'view'=>$views,'hotel'=>$citys]);
         }
+=======
+        return $this->render('magazine',['spots'=>$pots,'season'=>$info,'page'=>$page]);
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
     }
 }

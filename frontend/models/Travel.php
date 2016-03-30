@@ -19,7 +19,10 @@ use yii\data\Pagination;
  * @property string $t_money
  * @property integer $t_comment_id
  * @property integer $t_del
+<<<<<<< HEAD
  * @property integer $click_num
+=======
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
  */
 class Travel extends \yii\db\ActiveRecord
 {
@@ -59,7 +62,10 @@ class Travel extends \yii\db\ActiveRecord
             't_money' => 'T Money',
             't_comment_id' => 'T Comment ID',
             't_del' => 'T Del',
+<<<<<<< HEAD
             'click_num'=>'T Num',
+=======
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
         ];
     }
     /**
@@ -72,6 +78,10 @@ class Travel extends \yii\db\ActiveRecord
         return $this->find()->select('*')
             ->innerJoin('city',"travel.c_id = city.c_id")
             ->innerJoin('season',"travel.s_id = season.s_id")
+<<<<<<< HEAD
+=======
+            ->innerJoin('comment',"travel.t_comment_id = comment.c_id")
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
             ->orderBy(['click_num'=>SORT_DESC])
             ->limit(6)
             ->asArray()
@@ -103,6 +113,10 @@ class Travel extends \yii\db\ActiveRecord
             $sql = $this->find()
             ->innerJoin('city',"travel.c_id = city.c_id")
             ->innerJoin('season',"travel.s_id = season.s_id")
+<<<<<<< HEAD
+=======
+            ->innerJoin('comment',"travel.t_comment_id = comment.c_id")
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
             ->where(['travel.s_id'=>$season])
            ->orderBy(['click_num'=>SORT_DESC])->select('*');
         //return  $sql->asArray()->all();die;
@@ -112,7 +126,11 @@ class Travel extends \yii\db\ActiveRecord
             'totalCount'=>$sql1->count(),
             'defaultPageSize'=>3,
         ]);
+<<<<<<< HEAD
         $info = Yii::$app->db->createCommand("select * from travel as tr join city on tr.c_id = city.c_id join season as sea on sea.s_id=tr.s_id where tr.s_id = '$season' limit ".$pages->offset.",".$pages->limit)->queryAll();
+=======
+        $info = Yii::$app->db->createCommand("select * from travel as tr join city on tr.c_id = city.c_id join season as sea on sea.s_id=tr.s_id join comment on tr.t_comment_id = comment.c_id where tr.s_id = '$season' limit ".$pages->offset.",".$pages->limit)->queryAll();
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 
        /* $info = $sql2->offset($pages->offset)
             ->limit($pages->limit)
@@ -130,6 +148,7 @@ class Travel extends \yii\db\ActiveRecord
         {
             $arr[$k]=$v['c_id'];
         }
+<<<<<<< HEAD
        $hots= array_count_values($arr);
         arsort($hots);
         foreach($hots as $k=>$v)
@@ -182,5 +201,8 @@ class Travel extends \yii\db\ActiveRecord
             $all = $this->find()->where(['c_id'=>$id])->orderBy(['click_num'=>SORT_DESC])->limit(4)->asArray()->all();
         }
         return $all;
+=======
+        print_r(array_count_values($arr));
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
     }
 }

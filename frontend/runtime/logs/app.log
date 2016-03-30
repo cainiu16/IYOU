@@ -4895,6 +4895,7 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1458879430.9574
     'REQUEST_TIME' => 1458879430
 ]
+<<<<<<< HEAD
 2016-03-25 20:54:53 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in F:\myproject\IYOU\iyou\frontend\models\Travel.php:129
 Stack trace:
 #0 F:\myproject\IYOU\iyou\frontend\models\Travel.php(129): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', 'F:\\myproject\\IY...', 129, Array)
@@ -18266,3 +18267,5 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1459243955.6615
     'REQUEST_TIME' => 1459243955
 ]
+=======
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7

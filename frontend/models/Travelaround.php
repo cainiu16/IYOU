@@ -3,8 +3,12 @@
 namespace app\models;
 
 use Yii;
+<<<<<<< HEAD
 use yii\data\Pagination;
 use app\models\Gropshop;
+=======
+
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 /**
  * This is the model class for table "travelaround".
  *
@@ -55,6 +59,7 @@ class Travelaround extends \yii\db\ActiveRecord
         $id=$this->findBySql("select c_id from city where c_name = '$city'")->asArray()->one();
         return $id;
     }
+<<<<<<< HEAD
     //查询定位城市的景点
     public function select_all($id){
         $arr=$this->findBySql("select * from travel inner join city on travel.c_id=city.c_id where travel.c_id='$id' and travel.t_del=1")->asArray()->all();
@@ -64,6 +69,12 @@ class Travelaround extends \yii\db\ActiveRecord
             ]);
         $info=Yii::$app->db->createCommand("select * from travel inner join city on travel.c_id=city.c_id where travel.c_id='$id' and travel.t_del=1 limit ".$pages->offset.",".$pages->limit)->queryAll();
         return ['pages'=>$pages,'info'=>$info];
+=======
+    //查询景点
+    public function select_all($id){
+        $arr=$this->findBySql("select * from travel inner join city on travel.c_id=city.c_id where travel.c_id='$id' and travel.t_del=1")->limit(0,8)->asArray()->all();
+        return $arr;
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
     }
     //查询景点详细信息
     public function detial($id){
@@ -71,6 +82,7 @@ class Travelaround extends \yii\db\ActiveRecord
         return $arr;
     }
     //查询其他推荐景点
+<<<<<<< HEAD
     /*public function select_else(){
         $row=$this->findBySql("select * from travel where t_del='1' order by click_num desc")->limit(0,8)->asArray()->all();
         return $row; 
@@ -115,5 +127,10 @@ class Travelaround extends \yii\db\ActiveRecord
             ]);
         $info=Yii::$app->db->createCommand("select * from gropshop inner join city on gropshop.c_id = city.c_id where c_name like '%$city%' limit ".$pages->offset.",".$pages->limit)->queryAll();
         return ['pages'=>$pages,'info'=>$info];
+=======
+    public function select_else(){
+        $row=$this->findBySql("select * from travel where t_del='1' order by click_num desc")->limit(0,8)->asArray()->all();
+        return $row;
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
     }
 }

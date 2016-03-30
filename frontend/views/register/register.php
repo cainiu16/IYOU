@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -60,3 +61,47 @@
           	}
           }
 </script>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>用户注册</title>
+	<link rel="stylesheet" href="css/register.css">
+</head> 
+<body>
+
+     <div class="biaodan">
+
+    	<form>
+	<table>
+      <tr>
+          <td>用户名:</td>
+          <td><input type="text" name=""></td>
+      </tr>
+      <tr>
+          <td>邮箱:</td>
+          <td><input type="text" name=""></td>
+          </td>
+      </tr>
+      <tr>
+          <td>密码:</td>
+          <td><input type="password" name=""></td>
+          </td>
+      </tr>
+      <tr>
+          <td>确认密码:</td>
+          <td><input type="password" name=""></td>
+          </td>
+      </tr>
+      <tr>
+          <td><input type="submit" value="注册"></td>
+          <td><input type="reset" value="重置"></td>
+          </td>
+      </tr>
+      </table>
+	</form>
+  </div>
+</body>
+</html>
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7

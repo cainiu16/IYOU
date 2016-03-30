@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<?php 
+use yii\widgets\LinkPager;
+?>
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -25,7 +31,11 @@
 
         <div class="container-fluid">
 
+<<<<<<< HEAD
 
+=======
+<a href="index.php?r=admin/add">添加</a>
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 <table border="1">
     <tr>
         <th>ID</th>
@@ -36,7 +46,11 @@
         <th>介绍</th>
         <th>操作</th>
     </tr>
+<<<<<<< HEAD
     <?php foreach ($info as $k => $v): ?>
+=======
+    <?php foreach ($arr as $k => $v): ?>
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
     <tr>
         <td><?php echo $v['i_id']?></td>
         <td><img src="<?php echo $v['i_img']?>" alt="无图"></td>
@@ -46,6 +60,7 @@
         <td><?php echo $v['i_desc']?></td>
         <td><a onclick="if(confirm('确定移除？')) return true; else return false;" href="index.php?r=admin/del&id=<?php echo $v['i_id']?>" class='outiong'>移除</a>||<a href="index.php?r=admin/save&id=<?php echo $v['i_id']?>">修改</a></td>
     </tr>
+<<<<<<< HEAD
      <?php endforeach ?>
 </table>
 
@@ -58,11 +73,40 @@
 
 
 
+=======
+
+     <?php endforeach ?>
+      <!-- <tr><td colspan="7"></td></tr> -->
+</table>
+                          <a href="index.php?r=admin/lunbo&page=<?php 
+                        if ($page-1<1) {
+                            echo '1';
+                        }else{
+                            $aa = $page-1;
+                            echo $aa;
+                        }
+                         ?>">上一页</a>&nbsp;
+                        
+                        <a href="index.php?r=admin/lunbo&page=<?php 
+                        if ($page+1>$countpage) {
+                            echo "$countpage";
+                        }else{
+                            $bb = $page+1;
+                            echo $bb;
+                        }
+                         ?>">下一页</a><br/>
+                         当前第<?php echo "$page"; ?>页-------
+                         共<?php echo "$countpage";?>页
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 
 
         </div>
     </div>
+<<<<<<< HEAD
     
+=======
+      
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 
 
     <script src="lib/bootstrap/js/bootstrap.js"></script>

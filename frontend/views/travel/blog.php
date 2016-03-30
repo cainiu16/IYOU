@@ -11,11 +11,19 @@
 					<div class="blog-main-one">
 						<div class="blog-one">
 							<div class="col-md-5 blog-one-left">
+<<<<<<< HEAD
 								<a href="index.php?r=travel/single&id=<?= $val['t_id']?>"><img src="http://<?= $val['t_img']?>" alt="" width="70" height="270" /></a>
 							</div>
 							<div class="col-md-7 blog-one-left">
 								<p>
 								<?php echo mb_strlen($val['t_content'],'utf-8')>50?mb_substr($val['t_content'],0,50,'utf-8').'……':$val['t_content'];?>
+=======
+								<a href="single.html"><img src="<?= $val['t_img']?>" alt="" /></a>
+							</div>
+							<div class="col-md-7 blog-one-left">
+								<p><!-- <?php echo substr($val['t_content'],120)?> -->
+									<?= $val['t_content']?>
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 								</p>
 							</div>
 							<div class="clearfix"></div>
@@ -68,6 +76,7 @@
 	use yii\widgets\ActiveForm;
 	?>
 
+<<<<<<< HEAD
 	<?= Html::beginForm('index.php?r=travel/upload' , 'post' , ['enctype' => 'multipart/form-data']) ?>
 	帖子标题：<input type="text" name='title' /><br />
 	景点展示：<?= Html::activeFileInput($model, 't_img')?>
@@ -75,6 +84,15 @@
 	<input type="submit" value="发表帖子" />
 
 	<?= Html::endForm(); ?>
+=======
+	<?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]) ?>
+	帖子标题：<input type="text" name='title' /><br />
+	景点展示：<?= $form->field($model, 't_img')->fileInput() ?>
+	帖子内容：<textarea name="content" id="" cols="30" rows="10"></textarea><br />
+	<button>发表帖子</button>
+
+	<?php ActiveForm::end() ?>
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 </form>
 </table>
 </center>

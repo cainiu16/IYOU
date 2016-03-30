@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
     <list default="true" id="5310b078-b7b1-4a62-a8a9-51d392b00cbc" name="Default" comment="" />
     <ignored path="iyou.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
+<<<<<<< HEAD
+=======
+=======
+    <list default="true" id="35eb5b9c-3907-4e63-9cd6-2565b68d56b7" name="默认的" comment="" />
+    <ignored path="IYOU.iws" />
+    <ignored path=".idea/workspace.xml" />
+>>>>>>> 9e98a82cd36250b76754a536565673f3e185ae03
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +33,10 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
     <favorites_list name="iyou" />
   </component>
   <component name="FileEditorManager">
@@ -178,10 +194,26 @@
       </file>
 >>>>>>> c12f2c277f4c0b8eef376e9dc27069b02944e157
     </leaf>
+<<<<<<< HEAD
+=======
+=======
+    <favorites_list name="IYOU" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+>>>>>>> 9e98a82cd36250b76754a536565673f3e185ae03
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
         <option value="$PROJECT_DIR$/frontend/config/main.php" />
 <<<<<<< HEAD
 =======
@@ -206,6 +238,19 @@
   <component name="PhpServers">
     <servers />
   </component>
+<<<<<<< HEAD
+=======
+=======
+        <option value="$PROJECT_DIR$/iyou/frontend/views/data/user.php" />
+        <option value="$PROJECT_DIR$/iyou/common/config/main-local.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+>>>>>>> 9e98a82cd36250b76754a536565673f3e185ae03
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="5" />
@@ -246,6 +291,10 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
               <option name="myItemId" value="iyou" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
@@ -367,10 +416,25 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+<<<<<<< HEAD
+=======
+=======
+              <option name="myItemId" value="IYOU" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+>>>>>>> 9e98a82cd36250b76754a536565673f3e185ae03
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -415,11 +479,33 @@
       <created>1458703379182</created>
       <option name="number" value="Default" />
       <updated>1458703379182</updated>
+<<<<<<< HEAD
+=======
+=======
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/iyou" />
+  </component>
+  <component name="RunManager">
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35eb5b9c-3907-4e63-9cd6-2565b68d56b7" name="默认的" comment="" />
+      <created>1458868553138</created>
+      <option name="number" value="Default" />
+      <updated>1458868553138</updated>
+>>>>>>> 9e98a82cd36250b76754a536565673f3e185ae03
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
     <frame x="5" y="52" width="1279" height="682" extended-state="0" />
 =======
     <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
@@ -469,6 +555,37 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
 >>>>>>> c12f2c277f4c0b8eef376e9dc27069b02944e157
+<<<<<<< HEAD
+=======
+=======
+    <frame x="5" y="52" width="1279" height="682" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="更改" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24938475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+>>>>>>> 9e98a82cd36250b76754a536565673f3e185ae03
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -491,6 +608,10 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
   <component name="editorHistoryManager">
 <<<<<<< HEAD
 =======
@@ -967,4 +1088,9 @@
       </provider>
     </entry>
   </component>
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 9e98a82cd36250b76754a536565673f3e185ae03
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 </project>

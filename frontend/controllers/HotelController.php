@@ -26,13 +26,21 @@ class HotelController extends Controller
 	 */
 	public function actionHotel()
 	{
+<<<<<<< HEAD
 		$this->layout="header";
+=======
+		$this->layout="header";	
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 
 		$hotel = Yii::$app->db;
 
 		//最热酒店
 		$sql = $hotel->createCommand("SELECT * FROM gropshop WHERE g_del =1 ORDER BY g_num DESC ");
+<<<<<<< HEAD
 		$re = $sql->queryOne();
+=======
+		$re = $sql->queryOne();	
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 		// print_r($re);die;
 		$re['g_content'] = substr($re['g_content'], 0,530);
 
@@ -47,7 +55,11 @@ class HotelController extends Controller
 
 		// $result['g_content'] = substr($result['g_content'], 0,200);
 
+<<<<<<< HEAD
 		return $this->render('news',['re'=>$re,'arr'=>$arr,'result'=>$result]);
+=======
+		return $this->render('news',['re'=>$re,'arr'=>$arr,'result'=>$result]);		
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 	}
 
 

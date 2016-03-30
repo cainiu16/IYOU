@@ -12,12 +12,16 @@ use yii\web\BadRequestHttpException;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
+<<<<<<< HEAD
 use yii\yiisoft\Mailer; 
+=======
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 header("content-type:text/html;charset=utf8");
 /**
  * Site controller
  */
 class RegisterController extends Controller
+<<<<<<< HEAD
 {        
            public $enableCsrfValidation = false;
           //指向注册页面的方法
@@ -47,5 +51,11 @@ class RegisterController extends Controller
                  }
                  
           }
+=======
+{
+          public function actionRegister(){
+          	return $this->renderPartial("register");
+          }
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 
 }

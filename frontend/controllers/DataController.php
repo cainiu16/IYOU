@@ -15,6 +15,7 @@ use yii\filters\AccessControl;
 class DataController extends Controller
 {
     //首页
+<<<<<<< HEAD
 
 	public function actionIndex()
 	{
@@ -22,13 +23,24 @@ class DataController extends Controller
 		$this->layout="header";
         //查询首页轮播信息
 		$sql="select * from imgs order by addtime desc limit 7";
+=======
+	public function actionIndex()
+	{
+		$this->layout="header";
+        //查询首页轮播信息
+		$sql="select * from imgs ";
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
     	$row=Yii::$app->db->createCommand($sql)->queryAll();
         //查询6条热门景点信息
     	$sql2="select * from travel order by click_num desc limit 6";
     	$re=Yii::$app->db->createCommand($sql2)->queryAll();
     	//print_r($re);die;
         //查询最热酒店信息
+<<<<<<< HEAD
         $sql3="select * from gropshop order by g_num desc limit 6";
+=======
+        $sql3="select * from gropshop order by g_num desc limit 12";
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
         $res=Yii::$app->db->createCommand($sql3)->queryAll();
     	return $this->render('index',['row'=>$row,'re'=>$re,'res'=>$res]);  	
 	}

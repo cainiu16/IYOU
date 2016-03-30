@@ -29,6 +29,16 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+<<<<<<< HEAD
+=======
+        'db'=>[
+            'class'=>'yii\db\Connection',
+            'dsn' =>'mysql:host=192.168.1.90;dbname=travel',
+            'username' => 'root',
+            'password' => 'root',
+            'charset' => 'utf8',
+        ],
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
     ],
     'params' => $params,
 ];

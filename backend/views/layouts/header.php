@@ -121,7 +121,11 @@ AppAsset::register($this);
         <a href="#lunbo-menu" class="nav-header" data-toggle="collapse"><i class="icon-dashboard"></i>轮播图管理</a>
         <ul id="lunbo-menu" class="nav nav-list collapse">
             <li><a href="index.php?r=admin/lunbo">轮播图管理</a></li>
+<<<<<<< HEAD
             <li ><a href="index.php?r=admin/zuire">热门景点管理</a></li>
+=======
+            <li ><a href="index.php?r=admins/travel">热门景点管理</a></li>
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
             <!-- <li ><a href="user.html">Sample Item</a></li>
             <li ><a href="media.html">Media</a></li>
             <li ><a href="calendar.html">Calendar</a></li>
@@ -129,6 +133,7 @@ AppAsset::register($this);
         </ul>
 
         
+<<<<<<< HEAD
         <a href="#error-menu" class="nav-header collapsed" data-toggle="collapse"><i class="icon-exclamation-sign"></i>周边游</a>
         <ul id="error-menu" class="nav nav-list collapse">
             <li ><a href="403.html">403 page</a></li>
@@ -142,6 +147,21 @@ AppAsset::register($this);
             <li ><a href="privacy-policy.html">Privacy Policy</a></li>
             <li ><a href="terms-and-conditions.html">Terms and Conditions</a></li>
         </ul>
+=======
+        <a href="#user-menu" class="nav-header collapsed" data-toggle="collapse"><i class="icon-exclamation-sign"></i>用户管理</a>
+        <ul id="user-menu" class="nav nav-list collapse">
+            <li ><a href="index.php?r=user/index">用户列表</a></li>
+            <!-- <li ><a href="404.html">404 page</a>	</li> -->
+<!--             <li ><a href="500.html">500 page</a></li>
+            <li ><a href="503.html">503 page</a></li> -->
+        </ul>
+
+<!--         <a href="#legal-menu" class="nav-header" data-toggle="collapse"><i class="icon-legal"></i>驴友游记</a>
+        <ul id="legal-menu" class="nav nav-list collapse">
+            <li ><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li ><a href="terms-and-conditions.html">Terms and Conditions</a></li>
+        </ul> -->
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
         <a href="#legal-menu1" class="nav-header" data-toggle="collapse"><i class="icon-legal"></i>酒店</a>
         <ul id="legal-menu1" class="nav nav-list collapse">
             <li ><a href="index.php?r=admin/jiudian">管理酒店</a></li>

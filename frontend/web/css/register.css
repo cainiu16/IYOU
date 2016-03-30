@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "utf-8";
 /* Reset CSS */
 html, body, div, span, applet, object, iframe,
@@ -255,3 +256,26 @@ a:hover{ text-decoration: underline; }
 	background-position: 0 -135px;
 	color: #00aeef;
 }
+=======
+body{
+      background-color:gray;
+       
+     }
+     .header{
+          width:100px;
+          height:100px;
+          background-color:red;
+     }
+     .biaodan{
+
+          margin-left:550px;
+          margin-top:220px;
+          color:red;
+      }
+      h1{
+        color:blue;
+          margin-left:550px;
+      }
+
+
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7

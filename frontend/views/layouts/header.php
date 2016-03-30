@@ -147,7 +147,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </script>
   <!--//search-scripts-->
   <!--banner-->
+<<<<<<< HEAD
     <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" target="target">免费模板</a></div>
+=======
+    <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >免费模板</a></div>
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 
 
 <?= $content ?>
@@ -157,6 +161,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="container">
       <div class="read-main">
         <div class="col-md-5 read-left">
+<<<<<<< HEAD
           <h3>友情链接</h3>
           <div class="read-btm">
             <div class="col-md-4 rd-left">
@@ -166,24 +171,59 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <li><a href="http://www.qunar.com" target="target">去哪儿</a></li>
                 <li><a href="http://www.qyer.com" target="target">穷游</a></li>
            
+=======
+          <h3>热门景点</h3>
+          <div class="read-btm">
+            <div class="col-md-4 rd-left">
+              <ul>
+                <li><a href="index.html">北京</a></li>
+                <li><a href="#">北京</a></li>
+                <li><a href="#">北京</a></li>
+                <li><a href="#">北京</a></li>
+                <li><a href="#">北京</a></li>
+                <li><a href="#">北京</a></li>
+                <li><a href="#">北京</a></li>
+                <li><a href="#">北京</a></li>
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
               </ul>
             </div>
             <div class="col-md-4 rd-left">
               <ul>
+<<<<<<< HEAD
                 <li><a href="http://www.taobao.com" target="target">淘宝</a></li>
                 <li><a href="http://www.jd.com" target="target">京东</a></li>
                 <li><a href="http://www.163.com" target="target">网易</a></li>
                 <li><a href="http://www.sina.com" target="target">新浪</a></li>
              
+=======
+                <li><a href="#">上海</a></li>
+                <li><a href="#">上海</a></li>
+                <li><a href="#">上海</a></li>
+                <li><a href="#">上海</a></li>
+                <li><a href="#">上海</a></li>
+                <li><a href="#">上海</a></li>
+                <li><a href="#">上海</a></li>
+                <li><a href="#">上海</a></li>
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
               </ul>
             </div>
             <div class="col-md-4 rd-left">
               <ul>
+<<<<<<< HEAD
                 <li><a href="" target="target">美团</a></li>
                 <li><a href="#" target="target">苏宁易购</a></li>
                 <li><a href="#" target="target">聚美优品</a></li>
                 <li><a href="#" target="target">饿了么</a></li>
                 
+=======
+                <li><a href="magazine.html">上海</a></li>
+                <li><a href="#">上海</a></li>
+                <li><a href="#">上海</a></li>
+                <li><a href="#">上海</a></li>
+                <li><a href="#">上海</a></li>
+                <li><a href="#">上海</a></li>
+                <li><a href="#">上海</a></li>
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
               </ul>
             </div>
             <div class="clearfix"></div>
@@ -218,9 +258,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           <h3>客服中心</h3>
           <div class="read-btm follow">
             <ul>
+<<<<<<< HEAD
               <li><a target="blank" href="tencent://message/?uin=1609711185&Site=qq&Menu=yes" class="twit" title="经理">QQ</a></li>
               <li><a target="blank" href="tencent://message/?uin=1253289610&Site=qq&Menu=yes" class="fb">QQ</a></li>
               <li><a target="blank" href="tencent://message/?uin=746479404&Site=qq&Menu=yes" class="d">QQ</a></li>
+=======
+              <li><a href="#" class="twit">QQ</a></li>
+              <li><a href="#" class="fb">QQ</a></li>
+              <li><a href="#" class="d">QQ</a></li>
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
               <li><a href="#" class="p">QQ</a></li>
             </ul>
           </div>

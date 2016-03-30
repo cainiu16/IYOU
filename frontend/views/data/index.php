@@ -86,7 +86,11 @@ pagination : false,
 <h4><?php echo $v['i_content'];?></h4>
 <img class="img-responsive cap" src="http://<?php echo $v['i_img'];?>" title="<?php echo $v['i_content'];?>" />
 <p><?php echo $v['i_desc'];?></p>
+<<<<<<< HEAD
 <a class="morebtn" href="index.php?r=viewspots/detail&season=1&s_id=<?php echo $v['i_s_id']?>">了解我</a>
+=======
+<a class="morebtn" href="#">ReadMore</a>
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 </div>						  
 </div>
 <?php } else { ?>
@@ -95,7 +99,11 @@ pagination : false,
 <h4><?php echo $v['i_content'];?></h4>
 <img class="img-responsive cap" src="http://<?php echo $v['i_img'];?>" title="<?php echo $v['i_content'];?>" />
 <p><?php echo $v['i_desc'];?></p>
+<<<<<<< HEAD
 <a class="morebtn" href="index.php?r=viewspots/detail&season=1&s_id=<?php echo $v['i_s_id']?>">了解我</a>
+=======
+<a class="morebtn" href="#">ReadMore</a>
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 </div>						  
 </div>
 <?php }}?>
@@ -116,7 +124,11 @@ $('.popup-with-zoom-anim').magnificPopup({
 	removalDelay: 300,
 	mainClass: 'my-mfp-zoom-in'
 });
+<<<<<<< HEAD
 															
+=======
+																
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 });
 </script>	
 </div>
@@ -141,6 +153,7 @@ $('.popup-with-zoom-anim').magnificPopup({
 <div class="container">
 <div class="articles-top">
 
+<<<<<<< HEAD
 <div>
 <!-- 热门景点循环开始 -->
 
@@ -216,13 +229,229 @@ $('.popup-with-zoom-anim').magnificPopup({
 
 
 </div>
+=======
+
+<!-- 热门景点循环开始 -->
+
+<!-- <div class="col-md-4 articles-left"> -->
+<div>
+<?php foreach ($re as $k=>$v){?>
+   <?php 
+   if(($k+3)%3==0)
+   { ?>
+   </div><div class="col-md-4 articles-left">
+  <?php } else{
+   ?>
+<div class="art-one">
+<a href="#"><img src="http://<?php echo $v['t_p_img'];?>" alt=""  title="<?php echo $v['t_name'];?>"/></a>
+<div class="art-btm">
+	<a href="#"><h3><?php echo $v['t_name'];?></h3></a>
+	<p><?php echo $v['t_content'];?></p>
+</div>
+</div>
+<?php } ?>
+<?php }?>
+</div>
+
+
+<!-- 热门景点循环结束 -->
+
+</div>
+<div class="col-md-4 articles-left">
+<h4>酒店信息</h4>
+<div class="week">
+
+<!-- 酒店信息循环开始 -->
+   <?php foreach ($res as $k=>$v) {?>
+     <div class="col-md-4 week-btm-left">
+	<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+		<div class="portfolio-wrapper">		
+			<a href="http://<?php echo $v['g_p_img'];?>" class="b-link-stripe b-animate-go   swipebox"  title="<?php echo $v['g_name'];?>">
+		     <img src="http://<?php echo $v['g_p_img'];?>" title="<?php echo $v['g_name'];?>"/><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">
+		     	<span class="one"></span>
+		     	</h2>
+		  	 </div></a>
+			</div>
+		</div>
+</div>
+
+   <?php }?>
+   
+<!-- 酒店信息循环结束 -->
+</div>
+
+<!-- <div class="col-md-4 week-btm-left">
+	<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+		<div class="portfolio-wrapper">		
+			<a href="images/week-3.jpg" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
+		     <img src="images/week-3.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">
+		     	<span class="one"></span>
+		     	</h2>
+		  	 </div></a>
+			</div>
+		</div>
+</div>
+
+
+<div class="col-md-4 week-btm-left">
+	<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+		<div class="portfolio-wrapper">		
+			<a href="images/week-4.jpg" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
+		     <img src="images/week-4.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">
+		     	<span class="one"></span>
+		     	</h2>
+		  	 </div></a>
+			</div>
+		</div>
+</div>
+
+
+<div class="col-md-4 week-btm-left">
+	<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+		<div class="portfolio-wrapper">		
+			<a href="images/week-5.jpg" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
+		     <img src="images/week-5.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">
+		     	<span class="one"></span>
+		     	</h2>
+		  	 </div></a>
+			</div>
+		</div>
+</div>
+
+
+<div class="clearfix"></div>
+</div>
+<div class="week-btm">
+
+<div class="col-md-4 week-btm-left">
+	<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+		<div class="portfolio-wrapper">		
+			<a href="images/week-6.jpg" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
+		     <img src="images/week-6.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">
+		     	<span class="one"></span>
+		     	</h2>
+		  	 </div></a>
+			</div>
+		</div>
+</div>
+
+
+<div class="col-md-4 week-btm-left">
+	<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+		<div class="portfolio-wrapper">		
+			<a href="images/week-7.jpg" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
+		     <img src="images/week-7.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">
+		     	<span class="one"></span>
+		     	</h2>
+		  	 </div></a>
+			</div>
+		</div>
+</div>
+
+
+<div class="col-md-4 week-btm-left">
+	<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+		<div class="portfolio-wrapper">		
+			<a href="images/week-8.jpg" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
+		     <img src="images/week-8.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">
+		     	<span class="one"></span>
+		     	</h2>
+		  	 </div></a>
+			</div>
+		</div>
+</div>
+
+<div class="clearfix"></div>
+</div>
+<div class="week-btm">
+
+
+<div class="col-md-4 week-btm-left">
+	<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+		<div class="portfolio-wrapper">		
+			<a href="images/week-9.jpg" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
+		     <img src="images/week-9.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">
+		     	<span class="one"></span>
+		     	</h2>
+		  	 </div></a>
+			</div>
+		</div>
+</div>
+
+
+
+<div class="col-md-4 week-btm-left">
+	<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+		<div class="portfolio-wrapper">		
+			<a href="images/week-10.jpg" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
+		     <img src="images/week-10.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">
+		     	<span class="one"></span>
+		     	</h2>
+		  	 </div></a>
+			</div>
+		</div>
+</div>
+
+
+<div class="col-md-4 week-btm-left">
+	<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+		<div class="portfolio-wrapper">		
+			<a href="images/week-11.jpg" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
+		     <img src="images/week-11.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">
+		     	<span class="one"></span>
+		     	</h2>
+		  	 </div></a>
+			</div>
+		</div>
+</div>
+<div class="clearfix"></div> -->
+
+</div>
+
+
+
+<div class="art-one">
+<a href="single.html"><img src="images/week-12.jpg" alt="" /></a>
+<div class="art-btm">
+	<a href="single.html"><h3>显示景点的名称</h3></a>
+	<p>显示景点的详细介绍</p>
+<!-- 							<ul>
+		<li><a href="#"><span class="fb"> </span></a><label>21</label></li>
+		<li><a href="#"><span class="twit"> </span></a><label>12</label></li>
+		<li><a href="#"><span class="g"> </span></a><label>37</label></li>
+		<li><a href="#"><span class="p"> </span></a><label>22</label></li>
+	</ul> -->						
+</div>
+</div>
+
+
+<div class="art-one">
+<a href="single.html"><img src="images/week-13.jpg" alt="" /></a>
+<div class="art-btm">
+	<a href="single.html"><h3>显示景点的名称</h3></a>
+	<p>显示景点的详细介绍，显示景点的详细介绍，</p>
+<!-- 							<ul>
+		<li><a href="#"><span class="fb"> </span></a><label>21</label></li>
+		<li><a href="#"><span class="twit"> </span></a><label>12</label></li>
+		<li><a href="#"><span class="g"> </span></a><label>37</label></li>
+		<li><a href="#"><span class="p"> </span></a><label>22</label></li>
+	</ul> -->
+</div>
+</div>
+
+
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 
 </div>
 <div class="clearfix"></div>
 </div>
 <div class="clearfix"></div>
 <div class="load">
+<<<<<<< HEAD
 <a href="index.php?r=hotel/hotel" class="hvr-shutter-out-horizontal">显示更多酒店信息</a>
+=======
+<a href="#" class="hvr-shutter-out-horizontal">显示更多</a>
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 </div>
 </div>
 </div>

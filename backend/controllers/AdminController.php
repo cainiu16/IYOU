@@ -16,6 +16,10 @@ use app\models\UploadForm;
 class AdminController extends Controller
 {
 	public $enableCsrfValidation = false;
+<<<<<<< HEAD
+=======
+	//后台登陆
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 	public function actionLogin()
 	{
 		$model = new Admin;
@@ -40,11 +44,19 @@ class AdminController extends Controller
 	    	return $this->render('sign-in');  					
     	}
 	}
+<<<<<<< HEAD
+=======
+	//后台退出
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 	public function actionRemove()
 	{
 		$session = Yii::$app->session;
 		$name = $session->remove("user");
 	}
+<<<<<<< HEAD
+=======
+	//跳转主页面
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 	public function actionIndex()
 	{
 		$this->layout="header";
@@ -56,19 +68,50 @@ class AdminController extends Controller
 			echo "<script>alert('请登录');location.href='index.php?r=admin/login';</script>";
 		}
 	}
+<<<<<<< HEAD
+=======
+	//显示admin列表
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 	public function actionAdmins()
 	{
 		$this->layout="header";
 		$model = new Admin;
+<<<<<<< HEAD
 		$del = 1;
 		$select = $model->selects($del);
 		// print_r($select);die;
 		return $this->render('admins',['select'=>$select]);  		
 	}
+=======
+
+		 if (empty($_GET['page'])) {
+           $page = 1;
+        }else{
+            $page = $_GET['page'];
+        }
+
+        $connection = Yii::$app->db;
+		$pagesize = 3;//每页显示条数
+        //查询数据库中一共有多少条数据
+        $postCount = $model->find()->where('a_del=1')->count();
+        $countpage = ceil($postCount/$pagesize);//总页数
+        $limit2 = ($page-1)*$pagesize;//偏移量
+        $del = 1;
+        $select = $model->selects($del,$limit2,$pagesize);
+  		return $this->render('admins',['select'=>$select,'page'=>$page,'countpage'=>$countpage]);  		
+	}
+	//管理员删除
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 	public function actionA_del()
 	{
 		$this->layout="header";
 		$model = new Admin;
+<<<<<<< HEAD
+=======
+		$session = Yii::$app->session;
+		$name = $session->get("user");
+		if ($name=="admin") {
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 		$id = $_GET["id"];
 		$type = $_GET['type'];
 		$del = $model->del($id,$type);
@@ -77,11 +120,24 @@ class AdminController extends Controller
 		}else{
 			echo "<script>alert('失败');location.href='index.php?r=admin/admins';</script>";
 		}
+<<<<<<< HEAD
+=======
+	}else{
+		echo "<script>alert('不好意思，权限不够');location.href='index.php?r=admin/admins';</script>";
+	}
+
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 	}
 	public function actionMima_upda()
 	{
 		$this->layout = "header";
 		$model = new Admin;
+<<<<<<< HEAD
+=======
+		$session = Yii::$app->session;
+		$name = $session->get("user");
+		if ($name=="admin") {
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 		if ($_POST) {
 			$id = $_POST['id'];
 			$upda_mima = $model->upda_mima($id);
@@ -97,11 +153,23 @@ class AdminController extends Controller
 			$select = $model->sele($id);
 			return $this->render("admins_mima",['select'=>$select]);
 		}
+<<<<<<< HEAD
 	}
+=======
+
+	}
+}
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 	public function actionA_upda()
 	{
 		$this->layout = "header";
 		$model = new Admin;
+<<<<<<< HEAD
+=======
+		$session = Yii::$app->session;
+		$name = $session->get("user");
+		if ($name=="admin") {
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 		if ($_POST) {
 			$updates = $model->updates();
 			if ($updates) {
@@ -114,6 +182,12 @@ class AdminController extends Controller
 			$select = $model->sele($id);
 			return $this->render("admins_upda",['select'=>$select]);
 		}
+<<<<<<< HEAD
+=======
+		}else{
+		echo "<script>alert('不好意思，权限不够');location.href='index.php?r=admin/admins';</script>";
+	}
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 	}
 	public function actionA_add()
 	{
@@ -136,10 +210,28 @@ class AdminController extends Controller
 	{
 		$this->layout="header";
 		$model = new Admin;
+<<<<<<< HEAD
 		$del = 0;
 		$select = $model->selects($del);
 		// print_r($select);die;
 		return $this->render('admins',['select'=>$select]);  
+=======
+				 if (empty($_GET['page'])) {
+           $page = 1;
+        }else{
+            $page = $_GET['page'];
+        }
+
+        $connection = Yii::$app->db;
+		$pagesize = 3;//每页显示条数
+        //查询数据库中一共有多少条数据
+        $postCount = $model->find()->where('a_del=0')->count();
+        $countpage = ceil($postCount/$pagesize);//总页数
+        $limit2 = ($page-1)*$pagesize;//偏移量
+        $del = 0;
+        $select = $model->selects($del,$limit2,$pagesize);
+		return $this->render('admins',['select'=>$select,'page'=>$page,'countpage'=>$countpage]);    
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 	}
 
 
@@ -288,7 +380,33 @@ class AdminController extends Controller
         $model = new Imgs();
         //调用model层的查询方法
         $info = $model->sel();
+<<<<<<< HEAD
 		return $this->render('lunbo',['info'=>$info]);
+=======
+        //调用分页方法
+        // $fy = $model->fenye();
+        // $page = $fy['page'];
+        // $content = $fy['content'];
+		// return $this->render('lunbo',['info'=>$info,'page'=>$page,'content'=>$content]);
+
+		$connection = Yii::$app->db;
+         if (empty($_GET['page'])) {
+           $page = 1;
+        }else{
+            $page = $_GET['page'];
+        }
+        $pagesize = 2;//每页显示条数
+        //查询数据库中一共有多少条数据
+        $command = $connection->createCommand('SELECT COUNT(*) FROM imgs');   
+        $postCount = $command->queryScalar();//查询标量值/计算值：queryScalar();
+        $countpage = ceil($postCount/$pagesize);//总页数
+        $limit2 = ($page-1)*$pagesize;//偏移量
+        $command = $connection->createCommand("SELECT * FROM imgs where i_del=1 limit $limit2,$pagesize");
+       //执行查询的sql语句,查询返回多行：
+        $arr = $command->queryAll();
+        //返回结果信息
+        return $this->render('lunbo',['arr'=>$arr,'page'=>$page,'countpage'=>$countpage]);
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 	}
 	//首页的最热景点展示管理
 	public function actionZuire()
@@ -310,6 +428,7 @@ class AdminController extends Controller
 	public function actionSave()
 	{
 		$this->layout="header";
+<<<<<<< HEAD
 		return $this->render('xiu');
 	}
 	//轮播图执行修改方法
@@ -345,5 +464,60 @@ class AdminController extends Controller
 
       return $this->render('upload', ['model' => $model,'info'=>$info]);	
 	}
+=======
+		$model = new Imgs();
+		$id = $_GET['id'];
+		//根据修改的ID进行查询对应的信息
+		$info = $model->sel2($id);
+		return $this->render('xiu',['model'=>$model,'id'=>$id,'info'=>$info]);
+	}
+	//轮播图执行修改方法
+	public function actionUpload(){
+		$this->layout="header";
+		$model = new Imgs();
+		$id = $_POST['id'];
+        $b = $model->i_img = UploadedFile::getInstance($model, 'i_img');
+        if($b){
+            $arr=$model->i_img->saveAs('./../../images/'.$model->i_img->baseName . '.' . $model->i_img->extension);
+            $i_img = 'www.imgss.com/'.$model->i_img->name;
+            $update = $model->upda($i_img);
+        }else{
+                $i_img = "";
+                $update = $model->upda($i_img);
+        }
+        if ($update) {
+                echo "<script>alert('成功');location.href='index.php?r=admin/lunbo';</script>";
+            }else{
+                echo "<script>alert('错误');location.href='index.php?r=admin/save';</script>";
+            }
+
+	}
+	//执行添加调用页面
+	public function actionAdd()
+	{
+		$this->layout="header";	
+		$model = new Imgs();	
+		return $this->render('add',['model'=>$model]);
+	}
+	//执行添加方法
+	public function actionDoadd()
+	{
+		$this->layout="header";
+		$model = new Imgs();
+		//上传的图片处理
+        $b = $model->i_img = UploadedFile::getInstance($model, 'i_img');
+            $arr=$model->i_img->saveAs('./../../images/'.$model->i_img->baseName . '.' . $model->i_img->extension);
+            $i_img = 'www.imgss.com/'.$model->i_img->name;
+            $update = $model->doadd($i_img);
+        if ($update) {
+                echo "<script>alert('成功');location.href='index.php?r=admin/lunbo';</script>";
+            }else{
+                echo "<script>alert('错误');location.href='index.php?r=admin/add';</script>";
+            }
+	}
+
+
+
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 
 }

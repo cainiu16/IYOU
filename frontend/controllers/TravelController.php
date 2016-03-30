@@ -21,15 +21,21 @@ class TravelController extends Controller
 		$this->layout="header";	
 		$model = new Travels;
 		$connection = \Yii::$app->db;
+<<<<<<< HEAD
 		$command = $connection->createCommand('SELECT * FROM travels order by t_id desc limit 7');
 		$post_arr = $command->queryAll();
 		//print_r($post_arr);die;
+=======
+		$command = $connection->createCommand('SELECT * FROM travels');
+		$post_arr = $command->queryAll();
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 		$connection = \Yii::$app->db;
 		$command = $connection->createCommand('SELECT * FROM user');
 		$user_one = $command->queryOne();
 		return $this->render('blog',['post_arr'=>$post_arr,'model'=>$model,'user_one'=>$user_one]);
 	}
 	//景点上传
+<<<<<<< HEAD
     public function actionUpload()
     {
 		$title = $_POST['title'];
@@ -48,12 +54,27 @@ class TravelController extends Controller
 			echo "<script>alert('发表成功');location.href='index.php?r=travel/travel'</script>";
 		}
     }
+=======
+    /*public function upload()
+    {
+        $model = new Product();
+		$model->p_imges = UploadedFile::getInstance($model, 'p_imges');
+		$arr=$model->p_imges->saveAs('../../frontend/web/images/'.$model->p_imges->baseName . '.' . $model->p_imges->extension);
+		
+		$article = new \app\models\product();
+        $article -> p_content =$p_content;
+		$article -> p_title =$p_title;
+        $article -> p_imges ='images/'.$model->p_imges->name;
+        $re=$article -> save();
+    }*/
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 	//帖子详情
 	public function actionSingle()
 	{
 		$this->layout="header";
 		$id = $_GET['id'];
 		$connection = \Yii::$app->db;
+<<<<<<< HEAD
 		$command = $connection->createCommand("SELECT * FROM travels where t_id = '$id'");
 		$post_arr = $command->queryOne();
 		$command = $connection->createCommand("SELECT * FROM reply where t_id = '$id' limit 5");
@@ -84,4 +105,11 @@ class TravelController extends Controller
 		//echo "<a href='index.php?r=travel/single?id=$t_id'>评论成功</a>";
 		
 	}
+=======
+		$command = $connection->createCommand("SELECT * FROM travel_content where t_tid = '$id'");
+		$post_arr = $command->queryAll();
+		return $this->render('single.php');
+
+	}
+>>>>>>> fb805c144cd0ec2d734d881f9f921039a329c3d7
 }
